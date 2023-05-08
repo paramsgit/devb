@@ -25,13 +25,12 @@ export const Host = () => {
       className="aspect-[2/1]"
     />
       </div>
+      
+      <div className="outerone" data-scroll-section >
+        <div className="innerone" ></div>
+      </div>
     </div>
-    <div className="">
-    <ParallaxBanner
-      layers={[{ image: 'abc.jpg', speed: -15 }]}
-      className="aspect-[2/1]"
-    />
-    </div>
+   
     </LocomotiveScrollProvider>
   
     </>
