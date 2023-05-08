@@ -1,0 +1,11 @@
+.innerone{
+    background: url('./static/abc.jpg');
+    width: 900px;
+    height: 600px;
+}
+.outerone{
+    margin: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
