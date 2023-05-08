@@ -7,7 +7,7 @@ function App() {
   return (
   <>
    <ParallaxProvider>
-  <Host/>
+  {/* <Host/> */}
   <Post/>
   </ParallaxProvider>
   </>
