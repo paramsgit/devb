@@ -68,14 +68,24 @@ export const Tost = () => {
               <div className="roomimg">
             <Post width={roomwidth} height={roomheight} image={firstimage}/>
             </div>
+
+           
             </div>
             <div className="roomright">
             <div className="roomimg">
             <Post width={roomwidth} height={roomheight} image={firstimage}/>
             </div>
             </div>
+            
           </div>
+          <div className='twrem'>
+           
+           <p className='linetext'>We aimed to design, develop and build a secure NFT marketplace with a modern, colorful</p>
+           
+         </div>
           </div>
+
+          
     </ReactLenis>
         </>
     );
