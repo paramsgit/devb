@@ -103,14 +103,14 @@
     justify-content: center;
     margin-top: 4px;
 }
-.roomimg{
+.roomimg,.gateimg{
 display: flex;
 justify-content: center;
 }
-.firstgatepassdiv{
+.firstgatepassdiv,.secondgatepassdiv{
     display: flex;
 }
-.gateleft,.gateright{
+.gateleft,.gateright,.gatelefts,.gaterights{
     width: 50%;
 }
 .glcontent{
@@ -130,10 +130,13 @@ justify-content: center;
     .roomdiv,.firstgatepassdiv{
         flex-direction: column;
     }
-    .roomleft,.roomright,.gateleft,.gateright{
+    .secondgatepassdiv{
+        flex-direction: column-reverse;
+    }
+    .roomleft,.roomright,.gateleft,.gateright,.gatelefts,.gaterights{
         width: 100%;
     }
-    .roomimg{
+    .roomimg,.gateimg{
         height: 100vw;
     }
     .featureheads{

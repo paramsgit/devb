@@ -93,15 +93,32 @@ export const Tost = () => {
                 <div className="glcontent">
                 <div className="headgen">Generate Gate-Pass </div>
               <p className='gengtext'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi iste nam doloribus eius architecto similique?</p>
+              <p className='gengtext'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi iste nam doloribus eius architecto similique?</p>
+              <p className='gengtext'> adipisicing elit. Animi iste nam doloribus eius architecto similique?</p>
               </div>
               </div>
-              <div className="gateright"></div>
+              <div className="gateright">
+                <div className="gateimg">
+                <Post width={roomwidth} height={roomheight} image={firstimage}/>
+                </div>
+              </div>
             </div>
 
 
             <div className="secondgatepassdiv">
-            <div className="gatelefts"></div>
-              <div className="gaterights"></div>
+            <div className="gatelefts">
+            <div className="gateimg">
+                <Post width={roomwidth} height={roomheight} image={firstimage}/>
+                </div>
+            </div>
+              <div className="gaterights">
+              <div className="glcontent">
+                <div className="headgen">Generate Gate-Pass </div>
+              <p className='gengtext'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi iste nam doloribus eius architecto similique?</p>
+              <p className='gengtext'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi iste nam doloribus eius architecto similique?</p>
+              <p className='gengtext'> adipisicing elit. Animi iste nam doloribus eius architecto similique?</p>
+              </div>
+              </div>
             </div>
           </div>
 
