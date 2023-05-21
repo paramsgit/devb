@@ -1,11 +1,10 @@
-import React,{useRef,useEffect} from 'react'
+import React,{useRef,useEffect, useState} from 'react'
 import { ParallaxBanner } from 'react-scroll-parallax';
 import { ParallaxProvider } from 'react-scroll-parallax';
 import { LocomotiveScrollProvider } from 'react-locomotive-scroll'
 import LocomotiveScroll from 'locomotive-scroll';
-export const Post = () => {
-
-
+export const Post = (props) => {
+ 
   const containerRef = useRef(null);
 
 
@@ -15,12 +14,12 @@ export const Post = () => {
 
       
          <ParallaxProvider>
-        <div style={{height:"700px"}}></div>
+       
         <div data-scroll-container ref={containerRef}>
         <ParallaxBanner
-          layers={[{ image: 'abc.jpg', speed: -15 }]}
-          className="aspect-[2/1]"
-          style={{width:"600px",height:"400px"}} 
+          layers={[{ image: props.image, speed: -15 }]}
+          className="aspect-[2/1] aspectper"
+          style={{width:props.width,height:props.height}} 
         />
       
         </div>

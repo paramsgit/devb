@@ -1,11 +1,131 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;600&family=Kavoon&family=Noto+Sans:wght@600;900&family=Open+Sans:wght@300;600&family=Poppins&family=Roboto:wght@500&family=Rubik:wght@400;500&family=Signika:wght@600&family=Ubuntu:wght@300;400;500;700&display=swap');
 .innerone{
     background: url('./static/abc.jpg');
     width: 900px;
     height: 600px;
 }
 .outerone{
-    margin: 200px;
+   
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.ftop{
+    margin-top: 150px;
+}
+.basicintro{
+    margin: 5rem;
+}
+.headingop{
+    font-size: 125%;
+    color: #86868c;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heads{
+    color: #86868c;
+    font-weight: 500; 
+}
+.linetext{
+    font-family: sans-serif;
+    font-size: 190%;
+    line-height: 1.65;
+
+}
+.gitbtn{
+    font-size: 20px;
+    font-family: Signika;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 20px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 30px;
+    transition: all ease-in-out 0.3s;
+}
+.gitbtn:hover{
+    background-color: #1a1a1a;
+    color: white;
+}
+.gitbtn:hover .gitimg{
+    background-color: white;
+    padding: 1px;
+    border-radius: 20px;
+    margin-bottom: 1px;
+}
+.gitimg{
+    width: 20px;
+    margin: 0px 5px 0 10px;
+    padding: 1px;
+}
+.twrem{
+    padding: 0rem 16rem;
+    margin: 100px 0;
+}
+.nameofp{
+    color: #1a1a1a;
+    font-weight: bold;
+    font-size: 350%;
+    padding-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    
+    
+}
+.featuresheading{
+    margin-bottom: 100px;
+}
+.roomdiv{
+    width: 100%;
+    display: flex;
+}
+.roomleft{
+    width: 50%;
+}
+.roomright{
+    width: 50%;
+}
+.roomtext{
+    margin-bottom: 100px;
+}
+.featureheads{
+    font-family: Poppins;
+    letter-spacing: 5px;
+    font-size: 250%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 4px;
+}
+.roomimg{
+display: flex;
+justify-content: center;
+}
+@media(max-width:600px){
+    .roomdiv{
+        flex-direction: column;
+    }
+    .roomleft,.roomright{
+        width: 100%;
+    }
+    .roomimg{
+        height: 100vw;
+    }
+    .featureheads{
+        font-size: 170%;
+    }
+    .aspectpar{
+        width: 90%!important;
+        height: 300px!important;
+    }
+    .twrem{
+        padding: 0 25px;
+        margin: 0;
+    }
 }
