@@ -63,7 +63,7 @@
     padding: 1px;
 }
 .twrem{
-    padding: 0rem 16rem;
+    padding: 0rem 20%;
     margin: 100px 0;
 }
 .nameofp{
@@ -107,11 +107,30 @@
 display: flex;
 justify-content: center;
 }
+.firstgatepassdiv{
+    display: flex;
+}
+.gateleft,.gateright{
+    width: 50%;
+}
+.glcontent{
+    padding: 5% 20%;
+}
+.headgen{
+    font-size: 150%;
+    color: #86868c;
+    font-weight: 500;
+}
+.gengtext{
+    font-family: sans-serif;
+    font-size: 150%;
+    line-height: 1.65;
+}
 @media(max-width:600px){
-    .roomdiv{
+    .roomdiv,.firstgatepassdiv{
         flex-direction: column;
     }
-    .roomleft,.roomright{
+    .roomleft,.roomright,.gateleft,.gateright{
         width: 100%;
     }
     .roomimg{
@@ -119,6 +138,9 @@ justify-content: center;
     }
     .featureheads{
         font-size: 170%;
+    }
+    .glcontent{
+        padding: 25px;
     }
     .aspectpar{
         width: 90%!important;

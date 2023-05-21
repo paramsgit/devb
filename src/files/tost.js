@@ -85,7 +85,27 @@ export const Tost = () => {
          </div>
           </div>
 
-          
+          <div className="gatepass">
+
+          <div className="gatepassdiv">
+            <div className="firstgatepassdiv">
+              <div className="gateleft">
+                <div className="glcontent">
+                <div className="headgen">Generate Gate-Pass </div>
+              <p className='gengtext'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi iste nam doloribus eius architecto similique?</p>
+              </div>
+              </div>
+              <div className="gateright"></div>
+            </div>
+
+
+            <div className="secondgatepassdiv">
+            <div className="gatelefts"></div>
+              <div className="gaterights"></div>
+            </div>
+          </div>
+
+          </div>
     </ReactLenis>
         </>
     );
