@@ -54,7 +54,7 @@ export const Tost = () => {
           </div>
 
           <div className='featuresheading'>
-            <div className="ftop">
+            <div className="ftop kft">
             <div className="headingop">Key Features </div>
             </div>
           </div>
@@ -78,7 +78,7 @@ export const Tost = () => {
             </div>
             
           </div>
-          <div className='twrem'>
+          <div className='twrem rmtxt' >
            
            <p className='linetext'>We aimed to design, develop and build a secure NFT marketplace with a modern, colorful</p>
            
@@ -86,7 +86,9 @@ export const Tost = () => {
           </div>
 
           <div className="gatepass">
-
+          <div className="gatetext">
+                <h2 className='featureheads'>Gate-Pass</h2>
+              </div>
           <div className="gatepassdiv">
             <div className="firstgatepassdiv">
               <div className="gateleft">

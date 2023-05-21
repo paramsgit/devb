@@ -94,6 +94,9 @@
 .roomtext{
     margin-bottom: 100px;
 }
+.gatepass{
+    margin-top: 200px;
+}
 .featureheads{
     font-family: Poppins;
     letter-spacing: 5px;
@@ -152,5 +155,8 @@ justify-content: center;
     .twrem{
         padding: 0 25px;
         margin: 0;
+    }
+    .kft{
+        margin-top: 50px;
     }
 }
