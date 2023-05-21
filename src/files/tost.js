@@ -14,6 +14,8 @@ export const Tost = () => {
       const [bigscreenheight, setbigscreenheight] = useState(600);
       const [roomwidth, setroomwidth] = useState(window.innerWidth * .37);
       const [roomheight, setroomheight] = useState(600);
+      const [attwidth, setattwidth] = useState(window.innerWidth * .35);
+      const [attheight, setattheight] = useState(500);
       const [firstimage, setfirstimage] = useState('abc.jpg');
       useEffect(() => {
        
@@ -22,6 +24,8 @@ export const Tost = () => {
           setbigscreenheight(bigscreenwidth)
           setroomwidth(window.innerWidth * .90 )
           setroomheight(roomwidth *2)
+          setattwidth(window.innerWidth * .90 )
+          setattheight(attwidth *2)
         }
       },[]);
     return (
@@ -124,6 +128,34 @@ export const Tost = () => {
             </div>
           </div>
 
+          </div>
+
+          <div className="attendance">
+          <div className="gatetext">
+                <h2 className='featureheads'>Attendance</h2>
+              </div>
+              <div className="attendancediv">
+                <div className="aleft">
+                <div className="att_img">
+                <Post width={attwidth} height={attheight} image={firstimage}/>
+                </div>
+                </div>
+                <div className="aright">
+                <div className="att_img2">
+                <Post width={attwidth} height={attheight} image={firstimage}/>
+                </div>
+                </div>
+              </div>
+
+              <div className='att_det' >
+           
+           <p className='linetext'>We aimed to design, develop and build a secure NFT marketplace Lorem ipsum dolor </p>
+           <p className='linetext'>We aimed to design, develop and build a secure NFT marketplace Lorem ipsum dolor </p>
+           <p className='linetext'>We aimed to design, develop and build a secure NFT marketplace Lorem ipsum dolorlorem15
+           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit odit quis facilis mollitia eius tempore? </p>
+           
+           
+         </div>
           </div>
     </ReactLenis>
         </>
