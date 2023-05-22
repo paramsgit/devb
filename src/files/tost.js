@@ -16,6 +16,9 @@ export const Tost = () => {
       const [roomheight, setroomheight] = useState(600);
       const [attwidth, setattwidth] = useState(window.innerWidth * .35);
       const [attheight, setattheight] = useState(500);
+      const [width, setwidth] = useState(window.innerWidth * .35);
+      const [height, setheight] = useState(500);
+
       const [firstimage, setfirstimage] = useState('abc.jpg');
       useEffect(() => {
        
@@ -155,6 +158,33 @@ export const Tost = () => {
            
            
          </div>
+          </div>
+
+
+          <div className="gatepass">
+          <div className="gatetext">
+                <h2 className='featureheads'>Complaints & Issues</h2>
+              </div>
+          <div className="gatepassdiv">
+            <div className="firstgatepassdiv">
+              <div className="gateleft">
+                <div className="glcontent">
+                <div className="headgen">Complians</div>
+              <p className='gengtext'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi iste nam doloribus eius architecto similique?</p>
+              <div className="headgen">Feedback</div>
+              <p className='gengtext'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi iste nam doloribus eius architecto similique?</p>
+              </div>
+              </div>
+              <div className="gateright">
+                <div className="gateimg">
+                <Post width={roomwidth} height={roomheight} image={firstimage}/>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+
           </div>
     </ReactLenis>
         </>
