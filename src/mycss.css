@@ -148,7 +148,11 @@ margin-right: 30px;
 .attendancediv{
     margin-top: 150px;
 }
-
+.atl{
+    font-size: 180%;
+    line-height: 1.35;
+    margin-bottom: 0;
+}
 
 @media(max-width:600px){
     .roomdiv,.firstgatepassdiv,.attendancediv{

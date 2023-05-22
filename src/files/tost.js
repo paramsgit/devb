@@ -149,9 +149,8 @@ export const Tost = () => {
 
               <div className='att_det' >
            
-           <p className='linetext'>We aimed to design, develop and build a secure NFT marketplace Lorem ipsum dolor </p>
-           <p className='linetext'>We aimed to design, develop and build a secure NFT marketplace Lorem ipsum dolor </p>
-           <p className='linetext'>We aimed to design, develop and build a secure NFT marketplace Lorem ipsum dolorlorem15
+           <p className='linetext atl'>We aimed to design, develop and build a secure NFT marketplace Lorem ipsum dolor </p>
+           <p className='linetext atl'>We aimed to design, develop and build a secure NFT marketplace Lorem ipsum dolorlorem15
            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit odit quis facilis mollitia eius tempore? </p>
            
            
@@ -160,6 +159,7 @@ export const Tost = () => {
     </ReactLenis>
         </>
     );
+    
 }
 
 
