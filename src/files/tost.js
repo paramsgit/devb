@@ -4,6 +4,11 @@ import { Link } from 'react-scroll';
 import { Post } from './post';
 import { Lenis as ReactLenis, useLenis } from '@studio-freight/react-lenis'
 import githublogo from './static/github-mark.svg';
+import htmllogo from './static/htmlpng.png'
+import csslogo from './static/css.png'
+import jslogo from './static/js.png'
+import reactlogo from './static/react.png'
+import tailwindlogo from './static/tailwind.png'
 export const Tost = () => {
     const lenis = useLenis(({scroll}) => {
         // called every scroll
@@ -161,9 +166,9 @@ export const Tost = () => {
           </div>
 
 
-          <div className="gatepass">
+          <div className="gatepass complains_and_feedback">
           <div className="gatetext">
-                <h2 className='featureheads'>Complaints & Issues</h2>
+                <h2 className='featureheads cah'>Complaints <span className='aiss'>  & Issues</span></h2>
               </div>
           <div className="gatepassdiv">
             <div className="firstgatepassdiv">
@@ -185,6 +190,53 @@ export const Tost = () => {
 
           </div>
 
+          </div>
+
+          <div className="gatepass admin_section">
+          <div className="gatetext">
+                <h2 className='featureheads'> Another heading </h2>
+              </div>
+       
+            
+          <div className="outerone gateimg"  >
+        <Post width={bigscreenwidth} height={bigscreenheight} image={firstimage}/>
+      </div>
+          </div>
+
+
+
+          <div className="gatepass tech_used">
+          <div className="gatetext">
+                <h2 className='featureheads'>Anothr head</h2>
+              </div>
+       
+            
+          <div className="outerone gateimg"  >
+        <div className='techdiv'>
+          
+<div className="titemdiv">
+<div className='popoverdiv'>
+    <div>hello</div>
+  </div>
+  <img className='titem_img' src={htmllogo} alt="" />
+ 
+</div>
+<div className="titemdiv">
+  <img className='titem_img' src={csslogo} alt="" />
+</div>
+<div className="titemdiv">
+  <img className='titem_img' src={jslogo} alt="" />
+</div>
+<div className="titemdiv">
+  <img className='titem_img' src={reactlogo} alt="" />
+</div>
+<div className="titemdiv">
+  <img className='titem_img' src={tailwindlogo} alt="" />
+</div>
+
+
+        </div>
+      </div>
           </div>
     </ReactLenis>
         </>

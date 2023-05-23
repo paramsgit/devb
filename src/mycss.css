@@ -153,10 +153,57 @@ margin-right: 30px;
     line-height: 1.35;
     margin-bottom: 0;
 }
-
-@media(max-width:600px){
-    .roomdiv,.firstgatepassdiv,.attendancediv{
+.cah{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.aiss{
+    margin-left: 20px;
+}
+.techdiv{
+    /* background-color: green; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0rem 15%;
+}
+.titemdiv{
+    width: 150px;
+    height: 150px;
+    /* background-color: black; */
+    margin: 20px;
+}
+.popoverdiv{
+    background: blueviolet;
+    width: 200px;
+    height: 200px;
+}
+.titem_img{
+    width: 125px;
+    height: 125px;
+}
+@media(max-width:900px){
+    .roomdiv,.firstgatepassdiv,.attendancediv,.cah{
         flex-direction: column;
+    }
+    .secondgatepassdiv{
+        flex-direction: column-reverse;
+    }
+    .roomleft,.roomright,.gateleft,.gateright,.gatelefts,.gaterights,.aleft,.aright{
+        width: 100%;
+    }
+    .roomimg,.gateimg,.att_img,.att_img2{
+        height: 100vw;
+    }
+}
+@media(max-width:600px){
+    .roomdiv,.firstgatepassdiv,.attendancediv,.cah{
+        flex-direction: column;
+    }
+    .aiss{
+        margin: 0;
     }
     .secondgatepassdiv{
         flex-direction: column-reverse;
@@ -193,5 +240,13 @@ margin-right: 30px;
     }
     .linetext{
         font-size: 150%;
+    }
+    .techdiv{
+        margin: 10px;
+    }
+    .titemdiv{
+        width: 100px;
+        height: 100px;
+        margin: 15px;
     }
 }
