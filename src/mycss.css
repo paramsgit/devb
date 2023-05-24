@@ -178,11 +178,28 @@ margin-right: 30px;
 .popoverdiv{
     background: blueviolet;
     width: 200px;
-    height: 200px;
+    height: 125px;
+    margin-top: -90px;
+    margin-left: -25px;
+    opacity: 0;
+    position: absolute;
+    transition: all linear 0.4s;
+}
+.titemdiv:hover .titem_img{
+ 
+    transform: scale(1.3);
+}
+.titemdiv:hover .popoverdiv{
+opacity: 1;
+margin-top: -115px;
+
+/* transform: translateY(-30px); */
+
 }
 .titem_img{
     width: 125px;
     height: 125px;
+    transition: all ease-in-out 0.3s;
 }
 @media(max-width:900px){
     .roomdiv,.firstgatepassdiv,.attendancediv,.cah{

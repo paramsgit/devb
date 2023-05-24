@@ -4,11 +4,7 @@ import { Link } from 'react-scroll';
 import { Post } from './post';
 import { Lenis as ReactLenis, useLenis } from '@studio-freight/react-lenis'
 import githublogo from './static/github-mark.svg';
-import htmllogo from './static/htmlpng.png'
-import csslogo from './static/css.png'
-import jslogo from './static/js.png'
-import reactlogo from './static/react.png'
-import tailwindlogo from './static/tailwind.png'
+import { Technologies } from './technologies';
 export const Tost = () => {
     const lenis = useLenis(({scroll}) => {
         // called every scroll
@@ -39,7 +35,7 @@ export const Tost = () => {
     return (
         <>
         <ReactLenis root options={{}}>
-        <div className="ftop">
+        {/* <div className="ftop">
           <div className="basicintro">
             <div className="headingop">Dopop </div>
             <div className="nameofp">Online marketplace to</div>
@@ -201,43 +197,11 @@ export const Tost = () => {
           <div className="outerone gateimg"  >
         <Post width={bigscreenwidth} height={bigscreenheight} image={firstimage}/>
       </div>
-          </div>
+          </div> */}
 
 
 
-          <div className="gatepass tech_used">
-          <div className="gatetext">
-                <h2 className='featureheads'>Anothr head</h2>
-              </div>
-       
-            
-          <div className="outerone gateimg"  >
-        <div className='techdiv'>
-          
-<div className="titemdiv">
-<div className='popoverdiv'>
-    <div>hello</div>
-  </div>
-  <img className='titem_img' src={htmllogo} alt="" />
- 
-</div>
-<div className="titemdiv">
-  <img className='titem_img' src={csslogo} alt="" />
-</div>
-<div className="titemdiv">
-  <img className='titem_img' src={jslogo} alt="" />
-</div>
-<div className="titemdiv">
-  <img className='titem_img' src={reactlogo} alt="" />
-</div>
-<div className="titemdiv">
-  <img className='titem_img' src={tailwindlogo} alt="" />
-</div>
-
-
-        </div>
-      </div>
-          </div>
+          <Technologies/>
     </ReactLenis>
         </>
     );

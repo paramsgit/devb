@@ -1,8 +1,8 @@
-import React,{useRef,useEffect, useState} from 'react'
+import React,{useRef} from 'react'
 import { ParallaxBanner } from 'react-scroll-parallax';
 import { ParallaxProvider } from 'react-scroll-parallax';
-import { LocomotiveScrollProvider } from 'react-locomotive-scroll'
-import LocomotiveScroll from 'locomotive-scroll';
+// import { LocomotiveScrollProvider } from 'react-locomotive-scroll'
+// import LocomotiveScroll from 'locomotive-scroll';
 export const Post = (props) => {
  
   const containerRef = useRef(null);
