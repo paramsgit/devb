@@ -19,7 +19,14 @@ export const Technologies = () => {
           
           <div className="titemdiv">
           <div className='popoverdiv'>
-              <div>hello</div>
+          <a href="#" className="block max-w-sm popinternal bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ">
+    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">CSS</h5>
+    <p className="font-normal text-gray-700 dark:text-gray-400">
+       
+    Cascading Style Sheets (CSS) is a style sheet language used for describing the 
+    <a href="https://en.wikipedia.org/wiki/CSS" target='_blank'> ...read more</a>
+    </p>
+</a>
             </div>
             <img className='titem_img' src={htmllogo} alt="" />
            
@@ -29,17 +36,74 @@ export const Technologies = () => {
 
           <div className="titemdiv">
           <div className='popoverdiv'>
-              <div>h222</div>
+         
+
+                
+<a href="#" className="block max-w-sm popinternal bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ">
+    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">CSS</h5>
+    <p className="font-normal text-gray-700 dark:text-gray-400">
+       
+    Cascading Style Sheets (CSS) is a style sheet language used for describing the 
+    <a href="https://en.wikipedia.org/wiki/CSS" target='_blank'> ...read more</a>
+    </p>
+</a>
+
+              
             </div>
             <img className='titem_img' src={csslogo} alt="" />
           </div>
           <div className="titemdiv">
+          <div className='popoverdiv'>
+         
+
+                
+         <a href="#" className="block max-w-sm popinternal bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ">
+             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">CSS</h5>
+             <p className="font-normal text-gray-700 dark:text-gray-400">
+                
+             Cascading Style Sheets (CSS) is a style sheet language used for describing the 
+             <a href="https://en.wikipedia.org/wiki/CSS" target='_blank'> ...read more</a>
+             </p>
+         </a>
+         
+                       
+                     </div>
             <img className='titem_img' src={jslogo} alt="" />
           </div>
           <div className="titemdiv">
+          <div className='popoverdiv'>
+         
+
+                
+         <a href="#" className="block max-w-sm popinternal bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ">
+             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">CSS</h5>
+             <p className="font-normal text-gray-700 dark:text-gray-400">
+                
+             Cascading Style Sheets (CSS) is a style sheet language used for describing the 
+             <a href="https://en.wikipedia.org/wiki/CSS" target='_blank'> ...read more</a>
+             </p>
+         </a>
+         
+                       
+                     </div>
             <img className='titem_img' src={reactlogo} alt="" />
           </div>
           <div className="titemdiv">
+          <div className='popoverdiv'>
+         
+
+                
+         <a href="#" className="block max-w-sm popinternal bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ">
+             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">CSS</h5>
+             <p className="font-normal text-gray-700 dark:text-gray-400">
+                
+             Cascading Style Sheets (CSS) is a style sheet language used for describing the 
+             <a href="https://en.wikipedia.org/wiki/CSS" target='_blank'> ...read more</a>
+             </p>
+         </a>
+         
+                       
+                     </div>
             <img className='titem_img' src={tailwindlogo} alt="" />
           </div>
           
