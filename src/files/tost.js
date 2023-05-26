@@ -5,6 +5,7 @@ import { Post } from './post';
 import { Lenis as ReactLenis, useLenis } from '@studio-freight/react-lenis'
 import githublogo from './static/github-mark.svg';
 import { Technologies } from './technologies';
+import { Footer } from './footer';
 export const Tost = () => {
     const lenis = useLenis(({scroll}) => {
         // called every scroll
@@ -32,6 +33,9 @@ export const Tost = () => {
           setattheight(attwidth *2)
         }
       },[]);
+
+
+      
     return (
         <>
         <ReactLenis root options={{}}>
@@ -203,7 +207,7 @@ export const Tost = () => {
 
           <Technologies/>
 
-          <div className="ftop">
+          <div className="ftop" id="demo">
           <div className="basicintro">
           <div className="nameofp">Demo</div>
             
@@ -211,11 +215,13 @@ export const Tost = () => {
           </div>
 
           <div className="headingop">Dopop </div>
-          <div className="outerone"  >
+          <div className="outerone gateimg"  >
         <Post width={bigscreenwidth} height={bigscreenheight} image={firstimage}/>
       </div>
         </div>
           
+      <Footer/>
+
     </ReactLenis>
         </>
     );
