@@ -102,6 +102,10 @@
 .gatepass,.attendance{
     margin-top: 200px;
 }
+.fte2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 .featureheads{
     font-family: Poppins;
     letter-spacing: 5px;
@@ -158,6 +162,7 @@ margin-right: 30px;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
 }
 .aiss{
     margin-left: 20px;

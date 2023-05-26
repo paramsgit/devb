@@ -35,7 +35,7 @@ export const Tost = () => {
     return (
         <>
         <ReactLenis root options={{}}>
-        {/* <div className="ftop">
+        <div className="ftop">
           <div className="basicintro">
             <div className="headingop">Dopop </div>
             <div className="nameofp">Online marketplace to</div>
@@ -197,11 +197,25 @@ export const Tost = () => {
           <div className="outerone gateimg"  >
         <Post width={bigscreenwidth} height={bigscreenheight} image={firstimage}/>
       </div>
-          </div> */}
+          </div>
 
 
 
           <Technologies/>
+
+          <div className="ftop">
+          <div className="basicintro">
+          <div className="nameofp">Demo</div>
+            
+           
+          </div>
+
+          <div className="headingop">Dopop </div>
+          <div className="outerone"  >
+        <Post width={bigscreenwidth} height={bigscreenheight} image={firstimage}/>
+      </div>
+        </div>
+          
     </ReactLenis>
         </>
     );
