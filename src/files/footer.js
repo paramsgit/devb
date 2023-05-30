@@ -36,7 +36,7 @@ export const Footer = () => {
       
         onMouseMove(e) {
           let hover = false;
-          let hoverArea = this.hover ? 0.7 : 0.5;
+          let hoverArea = this.hover ? 0.5 : 0.3;
           let x = e.clientX - this.x;
           let y = e.clientY - this.y;
           let distance = Math.sqrt(x * x + y * y);

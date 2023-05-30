@@ -13,7 +13,7 @@ export const Tost = () => {
 
 
       const [bigscreenwidth, setbigscreenwidth] = useState(window.innerWidth * .8);
-      const [bigscreenheight, setbigscreenheight] = useState(600);
+      const [bigscreenheight, setbigscreenheight] = useState(700);
       const [roomwidth, setroomwidth] = useState(window.innerWidth * .37);
       const [roomheight, setroomheight] = useState(600);
       const [attwidth, setattwidth] = useState(window.innerWidth * .35);
@@ -21,7 +21,7 @@ export const Tost = () => {
       const [width, setwidth] = useState(window.innerWidth * .35);
       const [height, setheight] = useState(500);
 
-      const [firstimage, setfirstimage] = useState('abc.jpg');
+      const [firstimage, setfirstimage] = useState('mobile4.jpg');
       useEffect(() => {
        
         if(bigscreenwidth< window.innerHeight){
@@ -39,7 +39,7 @@ export const Tost = () => {
     return (
         <>
         <ReactLenis root options={{}}>
-        <div className="ftop">
+        {/* <div className="ftop">
           <div className="basicintro">
             <div className="headingop">Dopop </div>
             <div className="nameofp">Online marketplace to</div>
@@ -201,7 +201,7 @@ export const Tost = () => {
           <div className="outerone gateimg"  >
         <Post width={bigscreenwidth} height={bigscreenheight} image={firstimage}/>
       </div>
-          </div>
+          </div> */}
 
 
 
