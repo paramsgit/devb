@@ -19,7 +19,7 @@ export const Post = (props) => {
         <ParallaxBanner
           layers={[{ image: props.image, speed: -15 }]}
           className="aspect-[2/1] aspectper"
-          style={{width:props.width,height:props.height}} 
+          style={{width:props.width,height:props.height, borderRadius:props.br}} 
         />
       
         </div>

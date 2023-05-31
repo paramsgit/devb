@@ -20,6 +20,7 @@ export const Tost = () => {
       const [attheight, setattheight] = useState(500);
       const [width, setwidth] = useState(window.innerWidth * .35);
       const [height, setheight] = useState(500);
+      const [br, setbr] = useState(60);
 
       const [firstimage, setfirstimage] = useState('photo7.jpg');
       const [mobileview, setmobileview] = useState('mobile4.jpg');
@@ -40,6 +41,8 @@ export const Tost = () => {
           setroomheight(roomwidth *2)
           setattwidth(window.innerWidth * .90 )
           setattheight(attwidth *2)
+          setbr(30)
+          setfirstimage('temp2.jpg')
         }
       },[]);
 
@@ -50,19 +53,23 @@ export const Tost = () => {
         <ReactLenis root options={{}}>
         <div className="ftop">
           <div className="basicintro">
-            <div className="headingop">Dopop </div>
-            <div className="nameofp">Online marketplace to</div>
+            <div className="headingop">N I T J </div>
+            <div className="nameofp">Modern Hostel Management</div>
           </div>
 
          
           <div className="outerone"  >
-        <Post width={bigscreenwidth} height={bigscreenheight} image={firstimage}/>
+        <Post br={br} width={bigscreenwidth} height={bigscreenheight} image={firstimage} />
       </div>
         </div>
         <div className="twolines">
           <div className='twrem'>
             <h1 className='heads'>Introduction</h1>
-            <p className='linetext'>We aimed to design, develop and build a secure NFT marketplace with a modern, colorful, and user-friendly interface that would appeal to any crypto enthusiast, whether they were new or experienced.</p>
+            <p className='linetext'>
+            
+Introducing our cutting-edge Modern Hostel Management project, designed to revolutionize the way hostels operate. With its innovative features and user-friendly interface, aims to streamline administrative tasks and optimize overall hostel operations .
+            
+            </p>
             <button className='gitbtn'>Link 
 
               <img className='gitimg' src={githublogo} alt="githublogo" />
@@ -70,7 +77,7 @@ export const Tost = () => {
             </button>
           </div>
           <div className="outerone">
-          <Post width={bigscreenwidth} height={bigscreenheight} image={mobileview}/>
+          <Post br={br} width={bigscreenwidth} height={bigscreenheight} image={mobileview}/>
           </div>
           </div>
 
@@ -87,14 +94,14 @@ export const Tost = () => {
                 <h2 className='featureheads'>Room  Booking</h2>
               </div>
               <div className="roomimg">
-            <Post width={roomwidth} height={roomheight} image={room1}/>
+            <Post br={br} width={roomwidth} height={roomheight} image={room1}/>
             </div>
 
            
             </div>
             <div className="roomright">
             <div className="roomimg">
-            <Post width={roomwidth} height={roomheight} image={mess}/>
+            <Post br={br} width={roomwidth} height={roomheight} image={mess}/>
             </div>
             </div>
             
@@ -122,7 +129,7 @@ export const Tost = () => {
               </div>
               <div className="gateright">
                 <div className="gateimg">
-                <Post width={roomwidth} height={roomheight} image={gatetoken}/>
+                <Post br={br} width={roomwidth} height={roomheight} image={gatetoken}/>
                 </div>
               </div>
             </div>
@@ -131,7 +138,7 @@ export const Tost = () => {
             <div className="secondgatepassdiv">
             <div className="gatelefts">
             <div className="gateimg">
-                <Post width={roomwidth} height={roomheight} image={gatephoto}/>
+                <Post br={br} width={roomwidth} height={roomheight} image={gatephoto}/>
                 </div>
             </div>
               <div className="gaterights">
@@ -154,12 +161,12 @@ export const Tost = () => {
               <div className="attendancediv">
                 <div className="aleft">
                 <div className="att_img">
-                <Post width={attwidth} height={attheight} image={attphoto}/>
+                <Post br={br} width={attwidth} height={attheight} image={attphoto}/>
                 </div>
                 </div>
                 <div className="aright">
                 <div className="att_img2">
-                <Post width={attwidth} height={attheight} image={attphoto2}/>
+                <Post br={br} width={attwidth} height={attheight} image={attphoto2}/>
                 </div>
                 </div>
               </div>
@@ -191,7 +198,7 @@ export const Tost = () => {
               </div>
               <div className="gateright">
                 <div className="gateimg">
-                <Post width={roomwidth} height={roomheight} image={compphoto}/>
+                <Post br={br} width={roomwidth} height={roomheight} image={compphoto}/>
                 </div>
               </div>
             </div>
@@ -208,7 +215,7 @@ export const Tost = () => {
        
             
           <div className="outerone gateimg"  >
-        <Post width={bigscreenwidth} height={bigscreenheight} image={adminpho}/>
+        <Post br={br} width={bigscreenwidth} height={bigscreenheight} image={adminpho}/>
       </div>
           </div>
 
@@ -225,7 +232,7 @@ export const Tost = () => {
 
           <div className="headingop">Dopop </div>
           <div className="outerone gateimg"  >
-        <Post width={bigscreenwidth} height={bigscreenheight} image={firstimage}/>
+        <Post br={br} width={bigscreenwidth} height={bigscreenheight} image={firstimage}/>
       </div>
         </div>
           
