@@ -21,7 +21,16 @@ export const Tost = () => {
       const [width, setwidth] = useState(window.innerWidth * .35);
       const [height, setheight] = useState(500);
 
-      const [firstimage, setfirstimage] = useState('mobile4.jpg');
+      const [firstimage, setfirstimage] = useState('photo7.jpg');
+      const [mobileview, setmobileview] = useState('mobile4.jpg');
+      const [room1, setroom1] = useState('room3.jpg');
+      const [mess, setmess] = useState('mess2.jpg');
+      const [gatephoto, setgatephoto] = useState('gate2.jpg');
+      const [gatetoken, setgatetoken] = useState('gate9.jpg');
+      const [attphoto, setattphoto] = useState('att1.jpg');
+      const [attphoto2, setattphoto2] = useState('att9.jpg');
+      const [compphoto, setcompphoto] = useState('comp.jpg');
+      const [adminpho, setadminpho] = useState('admin.jpg');
       useEffect(() => {
        
         if(bigscreenwidth< window.innerHeight){
@@ -39,7 +48,7 @@ export const Tost = () => {
     return (
         <>
         <ReactLenis root options={{}}>
-        {/* <div className="ftop">
+        <div className="ftop">
           <div className="basicintro">
             <div className="headingop">Dopop </div>
             <div className="nameofp">Online marketplace to</div>
@@ -61,7 +70,7 @@ export const Tost = () => {
             </button>
           </div>
           <div className="outerone">
-          <Post width={bigscreenwidth} height={bigscreenheight} image={firstimage}/>
+          <Post width={bigscreenwidth} height={bigscreenheight} image={mobileview}/>
           </div>
           </div>
 
@@ -78,14 +87,14 @@ export const Tost = () => {
                 <h2 className='featureheads'>Room  Booking</h2>
               </div>
               <div className="roomimg">
-            <Post width={roomwidth} height={roomheight} image={firstimage}/>
+            <Post width={roomwidth} height={roomheight} image={room1}/>
             </div>
 
            
             </div>
             <div className="roomright">
             <div className="roomimg">
-            <Post width={roomwidth} height={roomheight} image={firstimage}/>
+            <Post width={roomwidth} height={roomheight} image={mess}/>
             </div>
             </div>
             
@@ -113,7 +122,7 @@ export const Tost = () => {
               </div>
               <div className="gateright">
                 <div className="gateimg">
-                <Post width={roomwidth} height={roomheight} image={firstimage}/>
+                <Post width={roomwidth} height={roomheight} image={gatetoken}/>
                 </div>
               </div>
             </div>
@@ -122,7 +131,7 @@ export const Tost = () => {
             <div className="secondgatepassdiv">
             <div className="gatelefts">
             <div className="gateimg">
-                <Post width={roomwidth} height={roomheight} image={firstimage}/>
+                <Post width={roomwidth} height={roomheight} image={gatephoto}/>
                 </div>
             </div>
               <div className="gaterights">
@@ -145,12 +154,12 @@ export const Tost = () => {
               <div className="attendancediv">
                 <div className="aleft">
                 <div className="att_img">
-                <Post width={attwidth} height={attheight} image={firstimage}/>
+                <Post width={attwidth} height={attheight} image={attphoto}/>
                 </div>
                 </div>
                 <div className="aright">
                 <div className="att_img2">
-                <Post width={attwidth} height={attheight} image={firstimage}/>
+                <Post width={attwidth} height={attheight} image={attphoto2}/>
                 </div>
                 </div>
               </div>
@@ -182,7 +191,7 @@ export const Tost = () => {
               </div>
               <div className="gateright">
                 <div className="gateimg">
-                <Post width={roomwidth} height={roomheight} image={firstimage}/>
+                <Post width={roomwidth} height={roomheight} image={compphoto}/>
                 </div>
               </div>
             </div>
@@ -199,9 +208,9 @@ export const Tost = () => {
        
             
           <div className="outerone gateimg"  >
-        <Post width={bigscreenwidth} height={bigscreenheight} image={firstimage}/>
+        <Post width={bigscreenwidth} height={bigscreenheight} image={adminpho}/>
       </div>
-          </div> */}
+          </div>
 
 
 
