@@ -17,7 +17,7 @@ export const Post = (props) => {
        
         <div data-scroll-container ref={containerRef}>
         <ParallaxBanner
-          layers={[{ image: props.image, speed: -15 }]}
+          layers={[{ image: props.image, speed: 0 }]}
           className="aspect-[2/1] aspectper"
           style={{width:props.width,height:props.height, borderRadius:props.br}} 
         />
