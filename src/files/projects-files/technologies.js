@@ -1,13 +1,13 @@
 import React from 'react'
-import htmllogo from './static/htmlpng.png'
-import csslogo from './static/css.png'
-import jslogo from './static/js.png'
-import reactlogo from './static/react.png'
-import tailwindlogo from './static/tailwind.png'
-import nodelogo from './static/node.png'
-import pythonlogo from './static/python.png'
-import restlogo from './static/rest.png'
-import mongologo from './static/mongodb.png'
+import htmllogo from '../static/htmlpng.png'
+import csslogo from '../static/css.png'
+import jslogo from '../static/js.png'
+import reactlogo from '../static/react.png'
+import tailwindlogo from '../static/tailwind.png'
+import nodelogo from '../static/node.png'
+import pythonlogo from '../static/python.png'
+import restlogo from '../static/rest.png'
+import mongologo from '../static/mongodb.png'
 export const Technologies = () => {
   return (
     <>

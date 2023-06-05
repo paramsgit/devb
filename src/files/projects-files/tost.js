@@ -3,7 +3,7 @@ import React,{useState,useEffect} from 'react';
 import { Link } from 'react-scroll';
 import { Post } from './post';
 import { Lenis as ReactLenis, useLenis } from '@studio-freight/react-lenis'
-import githublogo from './static/github-mark.svg';
+import githublogo from '../static/github-mark.svg';
 import { Technologies } from './technologies';
 import { Footer } from './footer';
 export const Tost = () => {
