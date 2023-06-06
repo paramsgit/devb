@@ -1,5 +1,5 @@
 import React,{useRef,useEffect} from 'react'
-
+import computerguy from '../static/computerguy.jpg'
 // export const Intro = () => {
 //   return (
 //     <div>Intro</div>
@@ -95,22 +95,19 @@ export const Intro = () => {
         <div className='aboutme'>
           <div className="aboutmeleft">
             <div className="main_title text-left">
-						<h2>let’s <br/>
-							Introduce about <br/>
-							myself</h2>
-						<p>
-							Whose given. Were gathered. There first subdue greater. Bearing you Whales heaven 
-							midst their. Beast creepeth. Fish days.
+						<h2 className='lmim'> Let me <br/>
+							Introduce myself</h2>
+						<p className='myintroduction'>
+						I am a passionate programmer and web developer currently in my final year of BTech, with a strong focus on creating exceptional digital experiences. Join me as I showcase my projects and share my journey in the world of technology.
 						</p>
-						<p>
-							Is give may shall likeness made yielding spirit a itself together created after sea 
-							is in beast beginning signs open god you're gathering whose gathered cattle let. 
-							Creature whales fruit unto meat the life beginning all in under give two.
-						</p>
-						<a className="primary_btn" href="#"><span>Download CV</span></a>
+					
 					</div>
           </div>
-          <div className="aboutmeright"></div>
+          <div className="aboutmeright">
+            <div className="aboutrightimgdiv">
+              <img src={computerguy} alt="" className='computerguyimg' />
+            </div>
+          </div>
         </div>
       </div>
      </ParallaxProvider>
