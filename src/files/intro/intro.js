@@ -1,11 +1,7 @@
 import React,{useRef,useEffect} from 'react'
 import computerguy from '../static/computerguy.jpg'
-// export const Intro = () => {
-//   return (
-//     <div>Intro</div>
-//   )
-// }
-
+import Lottie from 'react-lottie';
+import ktm from '../ktm.json'
 import { ParallaxBanner,ParallaxProvider } from 'react-scroll-parallax';
 
 export const Intro = () => {
@@ -77,12 +73,21 @@ export const Intro = () => {
       observer.observe(targetRef.current);
     }
 
+
+  
     return () => {
       observer.disconnect();
     };
   }, []);
 
-
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: ktm,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice"
+    }
+  };
   return (
     <ParallaxProvider>
     <ParallaxBanner
@@ -105,8 +110,13 @@ export const Intro = () => {
           </div>
           <div className="aboutmeright">
             <div className="aboutrightimgdiv">
-              <img src={computerguy} alt="" className='computerguyimg' />
-            </div>
+              {/* <img src={computerguy} alt="" className='computerguyimg' /> */}
+              <Lottie 
+	    options={defaultOptions}
+        height={600}
+        width={600}
+      />
+      </div>
           </div>
         </div>
       </div>
