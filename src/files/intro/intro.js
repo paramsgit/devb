@@ -33,9 +33,9 @@ export const Intro = () => {
   };
 
   const foreground = {
-    image: 'banner/sf.png',
+    image: 'banner/sf0.png',
     translateY: [0, 15],
-    scale: [1, 1.5, 'easeOutCubic'],
+    scale: [1, 0.1, 'easeOutCubic'],
     shouldAlwaysCompleteAnimation: true,
   };
 
@@ -92,7 +92,26 @@ export const Intro = () => {
     />
 
 <div className="center full" id='scnddiv' ref={targetRef} >
-        <h1 className="headline gray">Goodnight.</h1>
+        <div className='aboutme'>
+          <div className="aboutmeleft">
+            <div className="main_title text-left">
+						<h2>let’s <br/>
+							Introduce about <br/>
+							myself</h2>
+						<p>
+							Whose given. Were gathered. There first subdue greater. Bearing you Whales heaven 
+							midst their. Beast creepeth. Fish days.
+						</p>
+						<p>
+							Is give may shall likeness made yielding spirit a itself together created after sea 
+							is in beast beginning signs open god you're gathering whose gathered cattle let. 
+							Creature whales fruit unto meat the life beginning all in under give two.
+						</p>
+						<a className="primary_btn" href="#"><span>Download CV</span></a>
+					</div>
+          </div>
+          <div className="aboutmeright"></div>
+        </div>
       </div>
      </ParallaxProvider>
   );
