@@ -60,7 +60,11 @@ transition: all ease-in-out 0.4s;
 }
 .aboutme{
   display: flex;
-  
+  justify-content: center;
+  align-items: center;
+}
+.aboutmeleft{
+  padding: 0 0 0 6%;
 }
 .aboutmeleft,.aboutmeright{
   width: 50%;

@@ -1,9 +1,10 @@
 import React,{useRef,useEffect} from 'react'
 import computerguy from '../static/computerguy.jpg'
 import Lottie from 'react-lottie';
-import ktm from '../ktm.json'
+import ktm from '../codingboy.json'
 import { ParallaxBanner,ParallaxProvider } from 'react-scroll-parallax';
-
+import Fade from 'react-reveal/Fade';
+import Slide from 'react-reveal/Slide';
 export const Intro = () => {
   const targetRef = useRef(null);
   const background = {
@@ -98,7 +99,9 @@ export const Intro = () => {
 
 <div className="center full" id='scnddiv' ref={targetRef} >
         <div className='aboutme'>
-          <div className="aboutmeleft">
+
+        <Fade cascade >
+        <div className="aboutmeleft">
             <div className="main_title text-left">
 						<h2 className='lmim'> Let me <br/>
 							Introduce myself</h2>
@@ -108,15 +111,21 @@ export const Intro = () => {
 					
 					</div>
           </div>
+        </Fade>
+
+         
           <div className="aboutmeright">
+          <Fade cascade >
             <div className="aboutrightimgdiv">
               {/* <img src={computerguy} alt="" className='computerguyimg' /> */}
               <Lottie 
 	    options={defaultOptions}
-        height={600}
+        height={400}
         width={600}
       />
       </div>
+
+      </Fade>
           </div>
         </div>
       </div>
