@@ -1,11 +1,21 @@
-import React,{useRef,useEffect} from 'react'
+import React,{useRef,useEffect,useState} from 'react'
 import computerguy from '../static/computerguy.jpg'
 import Lottie from 'react-lottie';
 import ktm from '../codingboy.json'
 import { ParallaxBanner,ParallaxProvider } from 'react-scroll-parallax';
-import Fade from 'react-reveal/Fade';
-import Slide from 'react-reveal/Slide';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+// import Fade from 'react-reveal/Fade';
+// import Slide from 'react-reveal/Slide';
+
 export const Intro = () => {
+
+
+  const [cbheight, setcbheight] = useState(400);
+  const [cbwidth, setcbwidth] = useState(600);
+
+
+
   const targetRef = useRef(null);
   const background = {
     image: 'banner/back.png',
@@ -30,9 +40,9 @@ export const Intro = () => {
   };
 
   const foreground = {
-    image: 'banner/sf0.png',
+    image: 'banner/sf2.png',
     translateY: [0, 15],
-    scale: [1, 0.1, 'easeOutCubic'],
+    scale: [1, 1.5, 'easeOutCubic'],
     shouldAlwaysCompleteAnimation: true,
   };
 
@@ -46,8 +56,18 @@ export const Intro = () => {
   };
 
   useEffect(() => {
-    
-       
+    AOS.init();
+    if( window.innerWidth <700){
+      console.log("smaller")
+      setcbwidth(300)
+      setcbheight(200)
+
+    }else{
+      console.log(window.innerWidth )
+    }
+
+
+
     const options = {
       root: null,
       rootMargin: '0px',
@@ -94,14 +114,14 @@ export const Intro = () => {
     <ParallaxBanner
       layers={[background, headline, foreground]}
       className="aspect-[2/1] bg-white-900"
-      style={{height:"100vh",marginTop:"100px"}}
+      style={{height:"100vh",marginTop:"80px"}}
     />
 
 <div className="center full" id='scnddiv' ref={targetRef} >
         <div className='aboutme'>
 
-        <Fade cascade >
-        <div className="aboutmeleft">
+       
+        <div data-aos="fade-left" className="aboutmeleft">
             <div className="main_title text-left">
 						<h2 className='lmim'> Let me <br/>
 							Introduce myself</h2>
@@ -111,21 +131,21 @@ export const Intro = () => {
 					
 					</div>
           </div>
-        </Fade>
+       
 
          
           <div className="aboutmeright">
-          <Fade cascade >
+         
             <div className="aboutrightimgdiv">
               {/* <img src={computerguy} alt="" className='computerguyimg' /> */}
               <Lottie 
 	    options={defaultOptions}
-        height={400}
-        width={600}
+        height={cbheight}
+        width={cbwidth}
       />
       </div>
 
-      </Fade>
+  
           </div>
         </div>
       </div>
