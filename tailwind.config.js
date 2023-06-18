@@ -44,5 +44,5 @@ module.exports = {
         },
       },
     },
-    plugins: [ require('flowbite/plugin','tw-elements/dist/plugin.cjs')],
+    plugins: [ require('flowbite/plugin')],
   };
