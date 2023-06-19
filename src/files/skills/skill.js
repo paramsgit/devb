@@ -1,29 +1,69 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import { Carousel } from 'flowbite';
 export const Skill = () => {
+
+
+  useEffect(() => {
+    makingfade()
+  }, []);
    
     function myFunction() {
 
-    document.getElementById('carsvg1').classList.remove('slider__back')
-    document.getElementById('carsvg2').classList.remove('slider__back')
-    document.getElementById('carsvg3').classList.remove('slider__back')
-    window.setTimeout(function() {
-        document.getElementById('carsvg1').classList.add('slider__back')
-    document.getElementById('carsvg2').classList.add('slider__back')
-    document.getElementById('carsvg3').classList.add('slider__back')
-    }, 50);
-  
-
-      document.getElementById('Prevcar').click()
+      document.getElementById('Nextcar2').click()
       }
       
       setInterval(myFunction, 9000);
 
+
+     function makingfade(){
+        const carousel = document.getElementById('carouselid');
+        const items = carousel.querySelectorAll('[data-carousel-item2]');
+        const prevButton = document.getElementById('Prevcar2')
+        const nextButton = document.getElementById('Nextcar2')
+        // console.log(carousel,items)
+        let currentIndex = 0;
+  
+        function fadeOut(element) {
+            element.classList.remove('opacity-100');
+            element.classList.add('opacity-0');
+            element.classList.add('hidden');
+        }
+    
+        function fadeIn(element) {
+          console.log("fadein",element)
+            element.classList.remove('opacity-0');
+            element.classList.add('opacity-100');
+            element.classList.remove('hidden');
+            element.classList.remove('translate-x-0');
+            element.classList.remove('translate-x-full');
+        }
+    
+        function showItem(index) {
+            fadeOut(items[currentIndex]);
+            fadeIn(items[index]);
+            currentIndex = index;
+        }
+     
+        prevButton.addEventListener('click', () => {
+            const prevIndex = (currentIndex - 1 + items.length) % items.length;
+            showItem(prevIndex);
+        });
+    
+        nextButton.addEventListener('click', () => {
+            const nextIndex = (currentIndex + 1) % items.length;
+            showItem(nextIndex);
+        });
+      }
+
+
+     
+     
+
   return (
    <>
-    <div id="animation-carousel" className="relative w-full" data-carousel="static">
+    <div id='carouselid'  className="relative w-full" data-carousel2="static2">
     <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
-        <div className="hidden duration-1000 ease-in-out" data-carousel-item >
+        <div className="hidden duration-700 ease-in-out caroitems opacity-100" data-carousel-item2>
             <div className='carodiv'>
                 <div className="caroleft">
                     <div className="p-5">
@@ -202,7 +242,7 @@ export const Skill = () => {
                 </div>
             </div>
         </div>
-        <div className="hidden duration-1000 ease-in-out" data-carousel-item>
+        <div className="hidden duration-700 ease-in-out caroitems opacity-0" data-carousel-item2>
             <div className='carodiv'>
                 <div className="caroleft">
                     <div className="p-5">
@@ -381,7 +421,7 @@ export const Skill = () => {
                 </div>
             </div>
         </div>
-        <div className="hidden duration-1000 ease-in-out" data-carousel-item>
+        <div className="hidden duration-700 ease-in-out caroitems opacity-0" data-carousel-item2>
             <div className='carodiv'>
                 <div className="caroleft">
                     <div className="p-5">
@@ -566,14 +606,17 @@ export const Skill = () => {
         </div> */}
       
     </div>
-    <div className="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2">
+    {/* <div className="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2">
         <button type="button"  className="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
-        {/* <button type="button" className="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
-        <button type="button" className="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button> */}
+        <button type="button" className="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+        <button type="button" className="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
         <button type="button" className="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
         <button type="button" className="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
-    </div>
-    <button type="button" id='Prevcar' className="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev style={{backgroundColor:"#0000"}}>
+    </div> */}
+
+        
+  
+    {/* <button type="button" id='Prevcar' className="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev style={{backgroundColor:"#0000"}}>
         <span className="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
             <svg aria-hidden="true" className="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 19l-7-7 7-7"></path></svg>
             <span className="sr-only">Previous</span>
@@ -584,8 +627,10 @@ export const Skill = () => {
             <svg aria-hidden="true" className="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path></svg>
             <span className="sr-only">Next</span>
         </span>
-    </button>
+    </button> */}
 </div>
+<button id='Prevcar2'>prev</button>
+<button id='Nextcar2' >next</button>
 
    </>
   )
