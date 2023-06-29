@@ -3,7 +3,7 @@ import { ParallaxBanner } from 'react-scroll-parallax';
 import { ParallaxProvider } from 'react-scroll-parallax';
 // import { LocomotiveScrollProvider } from 'react-locomotive-scroll'
 // import LocomotiveScroll from 'locomotive-scroll';
-export const Post = (props) => {
+export const Postcp = (props) => {
  
   const containerRef = useRef(null);
 
@@ -19,7 +19,7 @@ export const Post = (props) => {
         <ParallaxBanner
           layers={[{ image: props.image, speed: -10 }]}
           className="aspect-[2/1] aspectper"
-          style={{width:props.width,height:props.height, borderRadius:props.br,margin:props.mrg}} 
+          style={{width:props.width,height:props.height, borderRadius:props.br,marginTop:"21px",marginLeft:"24px"}} 
         />
       
         </div>

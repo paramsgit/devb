@@ -28,6 +28,29 @@
   color: #61dafb;
 }
 
+.ipad{
+ 
+    position: absolute;
+    height: 350px;
+    width: 600px;
+  
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#ipad{
+  background-image: url('./static/ipad2.png');
+}
+#ipad2{
+  background-image: url('./static/ipadwithhostel.png');
+}
+
+@media (max-width:700px){
+.ipad{
+  width: 100%;
+  /* height: auto; */
+}
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
