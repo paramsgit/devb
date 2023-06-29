@@ -4,6 +4,35 @@
 .caroleft,.caroright{
     width: 50%;
 }
+.caroright{
+  padding: 4%;
+}
+.carobuttons{
+ display: flex;
+ justify-content: center;
+ margin-top: 30px;
+
+}
+#Nextcar2,#Prevcar2{
+  transition: all 0.5s ease-in-out;
+  background-color: #1c2841;
+}
+#Nextcar2:active,#Prevcar2:active{
+  transform: scale(0.6);
+}
+#Nextcar2:hover,#Prevcar2:hover{
+  background-color: #000000;
+}
+.cbi{
+  display: flex;
+}
+.skillsct{
+  outline: 1px solid gray;
+  margin: 10px;
+}
+.acr{
+  padding: 10%;
+}
 .caroitems{
   transition: opacity 0.4s ease-in-out;
 }
@@ -18,8 +47,23 @@
   transition: opacity 0.5s ease-in-out;
 }
 
-.carousel-item2.active {
+.carousel-item2.active2 {
   opacity: 1;
+}
+.ucaro{
+  height: 100%;
+}
+.skillshdiv{
+  display: flex;
+  justify-content: center;
+  margin: 4% 0;
+}
+
+.activegb{
+  background-color: #49ce49;
+  outline: 2px solid #49ce49;
+  transition: all 0.5s ease-in-out;
+
 }
 
 
@@ -90,6 +134,15 @@
 
 
 
+@media (max-width:700px){
+  .carodiv{
+    flex-direction: column;
+    
+}
+.caroleft,.caroright{
+    width: 100%;
+}
+}
 
 
 
@@ -97,12 +150,20 @@
 
 
 
-
-
-
-
-
-
+.theme--light .slider__back .hexa-grid,
+.theme--light .slider__center .hexa-grid,
+.theme--light .slider__design .hexa-grid,
+.theme--light .slider__devops .hexa-grid,
+.theme--light .slider__front .hexa-grid {
+  stroke: #a1a1a1;
+}
+.theme--light .slider__back .icons-bg,
+.theme--light .slider__center .icons-bg,
+.theme--light .slider__design .icons-bg,
+.theme--light .slider__devops .icons-bg,
+.theme--light .slider__front .icons-bg {
+  fill: #fff!important;
+}
 .card__content {
     line-height: 1.3rem;
     margin: 1.3rem 0;
@@ -552,6 +613,7 @@
     text-orientation: mixed;
     -webkit-writing-mode: vertical-lr;
     writing-mode: vertical-lr;
+    border: 1px solid rgb(37, 37, 37);
   }
   @media screen and (max-width: 1160px) {
     .slider__slide-title {
@@ -576,7 +638,7 @@
   .slider__slide-content {
     display: flex;
     flex-direction: column;
-    max-width: 20rem;
+    max-width: 26rem;
     min-width: 15rem;
     padding: 0 1rem 0 5rem;
   }
@@ -3700,4 +3762,6 @@
     overflow: hidden;
     width: 100%;
   }
- 
+ .icons-bg{
+  fill:#fff;
+ }

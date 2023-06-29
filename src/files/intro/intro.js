@@ -74,31 +74,31 @@ export const Intro = () => {
       threshold: 0.8, // Fully visible target element
     };
 
-    const callback = (entries, observer) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-            console.log("red")
-          document.body.style.backgroundColor = 'white'; 
-          document.getElementById('scnddiv').style.backgroundColor = 'white'; // Change the body color
-        } else {
-            console.log("white")
-          // document.body.style.backgroundColor = 'white';
-          document.getElementById('scnddiv').style.backgroundColor = '#f3f4f1'; // Reset the body color
-        }
-      });
-    };
+    // const callback = (entries, observer) => {
+    //   entries.forEach((entry) => {
+    //     if (entry.isIntersecting) {
+    //         console.log("red")
+    //       document.body.style.backgroundColor = 'white'; 
+    //       document.getElementById('scnddiv').style.backgroundColor = 'white'; // Change the body color
+    //     } else {
+    //         console.log("white")
+    //       // document.body.style.backgroundColor = 'white';
+    //       document.getElementById('scnddiv').style.backgroundColor = '#f3f4f1'; // Reset the body color
+    //     }
+    //   });
+    // };
 
-    const observer = new IntersectionObserver(callback, options);
+    // const observer = new IntersectionObserver(callback, options);
 
-    if (targetRef.current) {
-      observer.observe(targetRef.current);
-    }
+    // if (targetRef.current) {
+    //   observer.observe(targetRef.current);
+    // }
 
 
   
-    return () => {
-      observer.disconnect();
-    };
+    // return () => {
+    //   observer.disconnect();
+    // };
   }, []);
 
   const defaultOptions = {
