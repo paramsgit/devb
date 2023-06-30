@@ -11,6 +11,7 @@ import {Nav} from './files/navbar/nav'
 import {Intro} from './files/intro/intro'
 import { Skill } from './files/skills/skill';
 import { Pjdone } from './files/projectsdone/pjdone';
+import { Pjdone2 } from './files/projectsdone/pjdone2';
 import { Tost } from './files/projects-files/tost';
 function App() {
   const lenis = useLenis(({scroll}) => {
@@ -24,9 +25,10 @@ function App() {
  
   {/* <Nav/>
   <Intro/> */}
-  <Skill/>
+  {/* <Skill/> */}
   {/* <Tost/> */}
   <Pjdone/>
+  <Pjdone2/>
 
   </ReactLenis>
 

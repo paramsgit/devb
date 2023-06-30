@@ -43,11 +43,95 @@
 #ipad2{
   background-image: url('./static/ipadwithhostel.png');
 }
+#ipad3{
+  background-image: url('./static/ipadblue.png');
+}
+.startpro1{
+  margin-bottom: 65px;
+}
+.divintrotoproj{
+  display: flex;
+  justify-content: center;
+}
+.prosgpdiv{
+  margin-top: 50px;
+}
+.teenphone{
+  margin-left: 100px;
+  width: 100%;
+  height: 70%;
+}
+.teenphone2{
+  margin-left: 100px;
+  width: 90%;
+  height: 70%;
+  margin-top: 30px;
+}
+.teenphone3{
+  
+  width: 90%;
+  height: 70%;
+  
+}
+.feature_list{
+list-style: disc;
+}
+.feature_list_li{
+  font-size: 125%;
+  font-family: sans-serif;
+
+  line-height: 1.65;
+}
+.pj_tech{
+  /* margin-top: 50px; */
+  /* display: flex; */
+  /* justify-content: center; */
+  padding: 0 10%;
+}
+.pj_t_first{
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  margin-left: 45px;
+}
+.pj_tech_head{
+      font-family: Noto Sans;
+    font-size: 100%;
+    color: #181717;
+    margin-left: 40px;
+}
+.skillicon{
+  /* width: 80%; */
+
+}
+.thirdjenkins{
+  margin-top: 100px;
+}
+
+
+
+
 
 @media (max-width:700px){
 .ipad{
   width: 100%;
   /* height: auto; */
+}
+.teenphone{
+  margin-left: 0;
+}
+.teenphone2{
+  margin: 0px;
+  width: 90%;
+  height: 66%;
+}
+/* .teenphone3{
+  margin: 0px;
+  width: 90%;
+  height: 66%;
+} */
+.thirdjenkins{
+  margin-top: 50px;
 }
 }
 
