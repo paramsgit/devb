@@ -94,12 +94,22 @@ list-style: disc;
   margin: 20px;
   margin-left: 45px;
 }
+.pj_t_first2{
+ 
+  margin: 20px;
+  margin-left: 10px;
+}
 .pj_tech_head{
       font-family: Noto Sans;
     font-size: 100%;
     color: #181717;
     margin-left: 40px;
 }
+.pj_tech_head2{
+     
+    margin-left: 0px;
+}
+
 .skillicon{
   /* width: 80%; */
 

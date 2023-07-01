@@ -55,13 +55,10 @@ handleResize();
 
 <div className="gatepass">
           <div className="gatetext startpro1">
-                <h2 className=' featureheads'>Social</h2>
+                <h2 className=' featureheads'>Social media web app with CI/CD</h2>
               </div>
           <div className="gatepassdiv">
          
-            {/* <div className="divintrotoproj">
-            <p className='gengtext'>Our modern hostel management system is designed to streamline and enhance the management process of hostels, catering to both students and administrators. Our modern hostel management system significantly reduces paperwork, streamlining administrative tasks and promoting a more sustainable and eco-friendly approach.</p>
-            </div> */}
 
 
             <div className="firstgatepassdiv">
@@ -69,8 +66,8 @@ handleResize();
               <div className="gateleft">
                 <div className="proglcontent glcontent">
                 <div className="headgen">Introduction </div>
-              <p className='gengtext'>Our modern hostel management system is designed to streamline and enhance the management process of hostels, catering to both students and administrators.</p>
-              <p className='gengtext'>Our system significantly reduces paperwork, streamlining administrative tasks and promoting a more sustainable and eco-friendly approach.</p>
+              <p className='gengtext'>Introducing a Django social media web application with CI/CD using Jenkins. A user-friendly social media platform is created using the Django framework and Jenkins automation in this project.</p>
+              <p className='gengtext'> With features like user profiles, posts, and interactions, it offers a seamless experience for connecting and sharing.</p>
               {/* <p className='gengtext'> adipisicing elit. Animi iste nam doloribus eius architecto similique?</p> */}
               </div>
               </div>
@@ -135,11 +132,29 @@ handleResize();
            
            <div className="gateleft">
              <div className="proglcontent glcontent">
-             <div className="headgen">Introduction </div>
-           <p className='gengtext'>Our modern hostel management system is designed to streamline and enhance the management process of hostels, catering to both students and administrators.</p>
-           <p className='gengtext'>Our system significantly reduces paperwork, streamlining administrative tasks and promoting a more sustainable and eco-friendly approach.</p>
-           {/* <p className='gengtext'> adipisicing elit. Animi iste nam doloribus eius architecto similique?</p> */}
+             <div className="headgen">Continuous Integration and Continuous Deployment </div>
+             <ul className='feature_list'>
+           <li className='feature_list_li'>In this architecture, an AWS EC2 instance is utilized to set up two containers. The first container hosts the Django application, while the second container runs Jenkins.</li>
+           <li className='feature_list_li'>With this setup, whenever code is pushed to GitHub, Jenkins automatically triggers the testing, building, and deployment processes, ensuring seamless integration and delivery of updates to the Django app running in the first container.</li>
+           <li className='feature_list_li'>  The use of Docker enables efficient containerization and isolation of the application components.</li>
+           </ul>
            </div>
+           <div className="pj_tech">
+                <span className='pj_tech_head pj_tech_head2'>
+                  Tech stack
+                </span>
+                  <div className="pj_t_first pj_t_first2">
+                    <div className="pj_ftech">
+                    <p align="center">
+                  <a >
+                    <img className='skillicon skillicon2' src="https://skillicons.dev/icons?i=django,sqlite,html,bootstrap,js,aws,jenkins,docker,bash,&perline=14" />
+                  </a>
+                </p>
+
+                    </div>
+                  </div>
+               
+                </div>
            </div>
            <div className="gateright">
              <div className="gateimg" >
