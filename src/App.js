@@ -12,6 +12,7 @@ import {Intro} from './files/intro/intro'
 import { Skill } from './files/skills/skill';
 import { Pjdone } from './files/projectsdone/pjdone';
 import { Pjdone2 } from './files/projectsdone/pjdone2';
+import { Moreprojects } from './files/projectsdone/moreprojects';
 import { Tost } from './files/projects-files/tost';
 function App() {
   const lenis = useLenis(({scroll}) => {
@@ -29,6 +30,7 @@ function App() {
   {/* <Tost/> */}
   <Pjdone/>
   <Pjdone2/>
+  <Moreprojects/>
 
   </ReactLenis>
 
