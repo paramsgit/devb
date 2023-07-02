@@ -1,10 +1,61 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap');
 
+@font-face {
+  font-family: Gilroy-SemiboldItalic;
+  src: url('../public/fonts/Gilroy-SemiBoldItalic.ttf');
+}
+@font-face {
+  font-family: Gilroy-Semibold;
+  src: url('../public/fonts/Gilroy-SemiBold.ttf');
+}
+@font-face {
+  font-family: maziusitalic;
+  src: url('../public/fonts/Maziusitalic.otf');
+}
+
+.hiionly{
+  font-family: Gilroy-SemiBold;
+}
+.main_div{
+  margin-top: -175px;
+}
+.amonly{
+  font-size: 110%;
+  font-family: maziusitalic;
+  color: #14cf93;
+}
+.myname{
+  font-size: 10rem;
+  margin-top: -30px;
+  color: white;
+  font-family: Gilroy-SemiBold;
+}
+.mwwm{
+  color: rgba(255, 255, 255, 0);
+}
+.mainbahrla{
+  padding: 0 10%;
+}
+.fswd{
+  color: whitesmoke;
+    font-family: Ubuntu;
+    font-size: 124%;
+    margin-top: -15px;
+   
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+
 .headline {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 100;
   font-size: 10vw;
+}
+
+body {
+
+  background: #f9fdff;
 }
 
 .inset {
@@ -15,13 +66,13 @@
   color: white;
 }
 .gray {
-  /* color: #446; */
+  color: #446;
 }
 
 .full {
   height: 100vh;
   /* background-color: #bec0bf; */
-  background: #e4e3e0; 
+  /* background: #e4e3e0;  */
   
 }
 
@@ -32,7 +83,7 @@
 }
 
 .gradient {
-  /* background: linear-gradient(rgba(14, 62, 151, 0.5) 50%, black); */
+  background: linear-gradient(rgba(14, 62, 151, 0.5) 50%, black);
 }
 nav{
   position: fixed;
@@ -42,7 +93,8 @@ nav{
 }
 
 #scnddiv{
-transition: all ease-in-out 0.4s;
+  /* background-color: #1b1919; */
+transition: all ease-in-out 1s;
 }
 .lmim{
   font-family: sans-serif;
@@ -71,6 +123,11 @@ transition: all ease-in-out 0.4s;
   width: 50%;
 }
 
+@media(max-width:700px){
+.myname{
+  font-size: 680%;
+}
+}
 
 @media(max-width:900px){
   .aboutme{

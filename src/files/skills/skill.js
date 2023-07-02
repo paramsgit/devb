@@ -72,7 +72,7 @@ export const Skill = () => {
         }
     
         function fadeIn(element) {
-          console.log("fadein",element)
+          // console.log("fadein",element)
             element.classList.remove('opacity-0');
             element.classList.add('opacity-100');
             element.classList.remove('hidden');
@@ -131,6 +131,7 @@ export const Skill = () => {
 </div>
     <div id='carouselid'  className="relative w-full" data-carousel2="static2">
     <div className="relative overflow-hidden rounded-lg h-96 ucaro">
+      
         <div className="hidden duration-700 ease-in-out caroitems opacity-100" data-carousel-item2>
             <div className='carodiv'>
                 <div className="caroleft">

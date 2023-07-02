@@ -13,25 +13,29 @@ import { Skill } from './files/skills/skill';
 import { Pjdone } from './files/projectsdone/pjdone';
 import { Pjdone2 } from './files/projectsdone/pjdone2';
 import { Moreprojects } from './files/projectsdone/moreprojects';
+import { Experience } from './files/certificates/experience';
 import { Tost } from './files/projects-files/tost';
 function App() {
   const lenis = useLenis(({scroll}) => {
     // called every scroll
   })
+
+  
   return (
   <>
 
 <ReactLenis root options={{}}>
 
  
-  {/* <Nav/>
-  <Intro/> */}
+  <Nav/>
+  <Intro/>
   {/* <Skill/> */}
   {/* <Tost/> */}
-  <Pjdone/>
+  {/* <Pjdone/>
   <Pjdone2/>
   <Moreprojects/>
-
+  <Experience/> */}
+  
   </ReactLenis>
 
   </>
