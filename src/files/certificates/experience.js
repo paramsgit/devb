@@ -1,8 +1,11 @@
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
-import aws from '../static/awsc.jpg'
-import freecd1 from '../static/freecd1.jpg'
+import cf1 from '../static/cf1.jpg'
+import cf2 from '../static/cf2.jpg'
+import cf3 from '../static/cf3.jpg'
+import cf4 from '../static/cf4.jpg'
+import cf5 from '../static/cf5.jpg'
 const boxVariant = {
   visible: { opacity: 1, scale: 1, transition: { duration: 0.5 } },
   hidden: { opacity: 0, scale: 0,  }
@@ -87,19 +90,31 @@ efficiency of the CI/CD process</p>
 
       <Box num={<div className="innerbox">
 <div className="certificate">
-  <img src={aws} alt="" />
+  <img src={cf1} alt="" />
 </div>
       </div>} />
       <Box num={<div className="innerbox">
 <div className="certificate">
-<img src={freecd1} alt="" />
+<img src={cf5} alt="" />
 </div>
       </div>} />
       <Box num={<div className="innerbox">
-<div className="certificate">3</div>
+<div className="certificate">
+<img src={cf3} alt="" />
+</div>
       </div>} />
-      {/* <Box num={2} />
-      <Box num={3} /> */}
+      <Box num={<div className="innerbox">
+<div className="certificate">
+<img src={cf4} alt="" />
+</div>
+      </div>} />
+      <Box num={<div className="innerbox">
+<div className="certificate">
+<img src={cf2} alt="" />
+</div>
+      </div>} />
+    
+     
     </div>
 
     </>
