@@ -23,7 +23,7 @@ export const Intro = () => {
   };
 
   const headline = {
-    translateY: [0, 30],
+    translateY: [0, 35],
     scale: [1, 1.05, 'easeOutCubic'],
     shouldAlwaysCompleteAnimation: true,
     expanded: false,
@@ -52,9 +52,10 @@ export const Intro = () => {
 
   const foreground = {
     image: 'banner/banner-foreground.png',
-    translateY: [0, 15],
+    translateY: [0, 5],
     scale: [1, 1.5, 'easeOutCubic'],
     shouldAlwaysCompleteAnimation: true,
+  
   };
 
   const gradientOverlay = {
@@ -121,7 +122,7 @@ export const Intro = () => {
     <ParallaxBanner
       layers={[background, headline, foreground,gradientOverlay]}
       className="aspect-[2/1] bg-gray-900"
-      style={{height:"100vh",marginTop:"80px"}}
+      style={{height:"100vh",marginTop:"0px"}}
     />
     
     {/* <div className="center full">
