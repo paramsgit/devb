@@ -17,6 +17,7 @@ import { Pjdone2 } from './files/projectsdone/pjdone2';
 import { Moreprojects } from './files/projectsdone/moreprojects';
 import { Experience } from './files/certificates/experience';
 import { Tost } from './files/projects-files/tost';
+import { Education } from './files/education/education';
 function App() {
   const lenis = useLenis(({scroll}) => {
     // called every scroll
@@ -30,9 +31,11 @@ function App() {
 <ReactLenis root options={{}}>
 
 
-  {/* <Nav/> */}
+  <Nav/>
   <Intro/>
-  <Experience/>
+
+  <Education/>
+ 
 
 
   </ReactLenis>
@@ -43,3 +46,9 @@ function App() {
 }
 
 export default App;
+
+{/* <Skill/>
+<Pjdone/>
+<Pjdone2/>
+<Moreprojects/>
+<Experience/> */}
