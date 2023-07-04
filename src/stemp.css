@@ -12,7 +12,24 @@
   font-family: maziusitalic;
   src: url('../public/fonts/Maziusitalic.otf');
 }
+body{
+  overflow: hidden;
+}
+.edu_image{
+  width: 70%;
+}
+.edu_img{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+ 
+  height: 100%;
+}
 
+.educations{
+  display: flex;
+  justify-content: center;
+}
 
 .innerbox{
  width: 100%;
