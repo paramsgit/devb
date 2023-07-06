@@ -39,7 +39,11 @@ export const Sitefooter = () => {
 
 {/* <section className="description"></section> */}
 
-<section ref={conclusionRef} className="conclusion"></section>
+<section ref={conclusionRef} className="conclusion">
+
+
+
+</section>
 
 <footer className="footer">
   <section ref={footerContainerRef} className="footer-container">    
