@@ -18,6 +18,7 @@ import { Moreprojects } from './files/projectsdone/moreprojects';
 import { Experience } from './files/certificates/experience';
 import { Tost } from './files/projects-files/tost';
 import { Education } from './files/education/education';
+import { Sitefooter } from './files/footer/sitefooter';
 function App() {
   const lenis = useLenis(({scroll}) => {
     // called every scroll
@@ -35,6 +36,8 @@ function App() {
   <Intro/>
 
   <Education/>
+  <Sitefooter/>
+  
  
 
 

@@ -70,12 +70,12 @@ export const Intro = () => {
   useEffect(() => {
    
     if( window.innerWidth <700){
-      console.log("smaller")
+      // console.log("smaller")
       setcbwidth(300)
       setcbheight(200)
 
     }else{
-      console.log(window.innerWidth )
+      // console.log(window.innerWidth )
     }
 
 
@@ -95,7 +95,7 @@ export const Intro = () => {
        const thresholdPosition = targetPosition - (window.innerHeight * thresholdPercentage);
  
        if (scrollPosition >= thresholdPosition) {
-        console.log(thresholdPosition,scrollPosition)
+        // console.log(thresholdPosition,scrollPosition)
          targetRef.current.style.backgroundColor = 'transparent'; // Change the background color
        } else {
          targetRef.current.style.backgroundColor = '#1b1919'; // Reset the background color
