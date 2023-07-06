@@ -115,7 +115,9 @@ list-style: disc;
      
     margin-left: 0px;
 }
-
+.vla{
+  vertical-align: inherit;
+}
 .skillicon{
   /* width: 80%; */
 
