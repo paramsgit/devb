@@ -8,19 +8,10 @@ import { Projectapp } from './files/projectapp';
 import { ParallaxProvider } from 'react-scroll-parallax';
 import { Lenis as ReactLenis, useLenis } from '@studio-freight/react-lenis'
 
-import {Intro} from './files/intro/intro'
-import {Nav} from './files/navbar/nav'
 
-import { Skill } from './files/skills/skill';
-import { Pjdone } from './files/projectsdone/pjdone';
-import { Pjdone2 } from './files/projectsdone/pjdone2';
-import { Moreprojects } from './files/projectsdone/moreprojects';
-import { Experience } from './files/certificates/experience';
-import { Tost } from './files/projects-files/tost';
-import { Education } from './files/education/education';
 import { Sitefooter } from './files/footer/sitefooter';
-import { Resume } from './files/footer/resume';
-function App() {
+
+function App2() {
   const lenis = useLenis(({scroll}) => {
     // called every scroll
   })
@@ -33,16 +24,12 @@ function App() {
 <ReactLenis root options={{}}>
 
 
-  <Nav/>
+  {/* <Nav/>
   <Intro/>
 
-  <Skill/>
-  <Pjdone/>
-  <Pjdone2/>
-  <Moreprojects/>
-  <Experience/>
   <Education/>
- 
+  <Resume/> */}
+  <Sitefooter/>
   
  
 
@@ -54,7 +41,7 @@ function App() {
   );
 }
 
-export default App;
+export default App2;
 
 {/* <Skill/>
 <Pjdone/>

@@ -142,7 +142,7 @@ background-color: green;
   color: rgba(255, 255, 255, 0);
 }
 .mainbahrla{
-  padding: 0 10%;
+  padding: 0 5%;
 }
 .fswd{
   color: whitesmoke;
@@ -248,6 +248,12 @@ margin-top: 100px;
 .edu_left,.edu_right{
   width: 100%;
   padding: 5%;
+}
+.edu_right{
+  text-align: center;
+}
+.deg_time{
+  justify-content: center;
 }
 }
 
