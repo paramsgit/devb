@@ -37,9 +37,9 @@ function App() {
   <Intro/>
 
   <Skill/>
-  <Pjdone/>
+  {/* <Pjdone/>
   <Pjdone2/>
-  <Moreprojects/>
+  <Moreprojects/> */}
   <Experience/>
   <Education/>
  
