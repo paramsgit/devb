@@ -85,6 +85,12 @@ height: 400px;
 background-color: green;
 /* margin-left: 30%; */
 }
+.skillhead{
+  width: 100%;
+}
+.skill_title{
+  letter-spacing: 8px!important;
+}
 .experience_title{
   font-size: 5rem;
  padding: 5% 5% 6% 5%;

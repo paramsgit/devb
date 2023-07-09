@@ -32,17 +32,20 @@ function App() {
 
 <ReactLenis root options={{}}>
 
-
+<div id='a_home_id'></div>
   <Nav/>
   <Intro/>
 
   <Skill/>
-  {/* <Pjdone/>
-  <Pjdone2/>
-  <Moreprojects/> */}
-  <Experience/>
+ <div id='a_project_id'></div>
+   <Pjdone/>
+   <Pjdone2/>
+   <Moreprojects/>
+   <div id='a_experience_id'></div>
+   <Experience/>
+   <div id='a_education_id'></div>
   <Education/>
- 
+  {/* <div id='a_contact_id'></div> */}
   
  
 

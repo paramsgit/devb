@@ -8,12 +8,30 @@ export const Skill = () => {
     const intervalId = setInterval(() => {
       let sk1=document.getElementById('carsvg1')
       sk1.classList.remove('slider--animation')
-      console.log("cooling")
+      // console.log("cooling")
       setTimeout(function() {
         sk1.classList.add('slider--animation')
       }, 1000);
      
     }, 7000);
+    const intervalId2 = setInterval(() => {
+      let sk1=document.getElementById('carsvg2')
+      sk1.classList.remove('slider--animation')
+      // console.log("cooling")
+      setTimeout(function() {
+        sk1.classList.add('slider--animation')
+      }, 1000);
+     
+    }, 8000);
+    const intervalId3 = setInterval(() => {
+      let sk1=document.getElementById('carsvg3')
+      sk1.classList.remove('slider--animation')
+      // console.log("cooling")
+      setTimeout(function() {
+        sk1.classList.add('slider--animation')
+      }, 1000);
+     
+    }, 6500);
 
    
     return () => clearInterval(intervalId);
@@ -25,8 +43,10 @@ export const Skill = () => {
   return (
    <>
 
-<div className='skillshdiv'>
-<h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">S K I L L S</h1>
+<div id='a_skill_id' className='skillshdiv'>
+<div className="cert_heading skillhead" id="cheadt">
+  <h1 className="certf_title skill_title">S <span style={{margin:"0 3px"}} className="greenN"> k </span> ills</h1>
+</div>
 </div>
    <div className="tskills">
 
@@ -179,13 +199,14 @@ export const Skill = () => {
         <div className=" duration-700 ease-in-out caroitems opacity-100" data-carousel-item2>
             <div className='carodiv'>
                 <div className="caroleft">
-                <div className="slider__description" data-projection-id="715"><h2 className="slider__slide-title">BACKEND</h2><article className="slider__slide-content"><p className="slider__slide-description">― Backend Developer.</p><p className="slider__slide-text">Delivering Back End solutions and maintaining the server side of websites and web applications, I have a strong commitment to writing clean, maintainable and well-structured code that is efficient, maintainable and easy to understand.</p></article></div>
+                <div className="slider__description" data-projection-id="715"><h2 className="slider__slide-title">BACKEND</h2>
+                <article className="slider__slide-content"><p className="slider__slide-description">― Backend Developer.</p><p className="slider__slide-text">Delivering Back End solutions and maintaining the server side of websites and web applications, I have a strong commitment to writing clean, maintainable and well-structured code that is efficient, maintainable and easy to understand.</p></article></div>
                 </div>
                 <div className="slider__fragmentation caroright">
                     <div>
                     <svg xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 598.08 366.97" width="300" height="300"
-    className="slider__back slider--animation " id='carsvg2'>
+    className="slider__back slider--animation widthsoo" id='carsvg2'>
     <g>
       <g>
         <text className="label" transform="translate(383 130.11)">
@@ -363,7 +384,7 @@ export const Skill = () => {
                     <div>
                     <svg xmlns="http://www.w3.org/2000/svg" 
 viewBox="0 0 554.66 333.77" width="300" height="300"
-class="slider__devops slider--animation theme--light" id='carsvg3'>
+class="slider__devops slider--animation theme--light widthsoo" id='carsvg3'>
 <g>
   <g>
     <g>

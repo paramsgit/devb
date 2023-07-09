@@ -43,7 +43,7 @@ export const Experience=()=> {
     <>
     <div className="experience_div">
     <div className="cert_heading" id="cheadt">
-  <h1 className="experience_title">Experie <span className="greenN">n</span> ce</h1>
+  <h1 className="certf_title">Experie <span className="greenN">n</span> ce</h1>
 </div>
 
 <ol className="etimeline relative border-l border-gray-200 dark:border-gray-700">                  

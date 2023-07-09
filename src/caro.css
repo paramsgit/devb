@@ -56,9 +56,14 @@
 .skillshdiv{
   display: flex;
   justify-content: center;
-  margin: 4% 0;
+  /* margin: 4% 0; */
 }
-
+.anc_active{
+  color: #13c78d!important;
+}
+.anctagl{
+  transition: all 0.5s ease-in-out;
+}
 .activegb{
   background-color: #49ce49;
   outline: 2px solid #49ce49;
@@ -138,6 +143,9 @@
   .carodiv{
     flex-direction: column;
     
+}
+.slider__slide-content{
+  display: none!important;
 }
 .caroleft,.caroright{
     width: 100%;
@@ -617,6 +625,7 @@
     -webkit-writing-mode: vertical-lr;
     writing-mode: vertical-lr;
     border: 1px solid rgb(37, 37, 37);
+    align-items: center;
   }
   @media screen and (max-width: 1160px) {
     .slider__slide-title {

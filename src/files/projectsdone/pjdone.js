@@ -50,12 +50,12 @@ handleResize();
  
 
   return (
-    <div>
+    <div >
 
 
 <div className="gatepass">
           <div className="gatetext startpro1">
-                <h2 className=' featureheads'>Project 1</h2>
+                <h2 className=' featureheads'>Modern Hostel Management</h2>
               </div>
           <div className="gatepassdiv">
          
