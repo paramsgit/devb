@@ -100,9 +100,10 @@ handleResize();
                 <ul className='feature_list'>
                   <li className='feature_list_li'>Registration with email verification </li>
                   <li className='feature_list_li'>Make new friends by following each other</li>
-                  <li className='feature_list_li'>Post new Photos,status and can likes Photos in the feed</li>
-                  <li className='feature_list_li'>Chat with friends </li>
-                  <li className='feature_list_li'>Complete profile section for each user</li>
+                  <li className='feature_list_li'>Users can upload and share their photos. They can provide captions and even can delete any time.</li>
+                  <li className='feature_list_li'>Users can express their appreciation for posts by liking them, number of likes and Date and time of post is displayed on each post.</li>
+                  <li className='feature_list_li'> Real-time chat feature that allows users to communicate.</li>
+                  <li className='feature_list_li'>Profile section for each user for managing personal data,npsuch as username, bio, and other details.</li>
                   
                   {/* <li className='feature_list_li'>Admin section for efficient management and monitoring of hostel activities</li> */}
                   
