@@ -33,7 +33,9 @@ export const Tost = () => {
       const [compphoto, setcompphoto] = useState('comp.jpg');
       const [adminpho, setadminpho] = useState('admin.jpg');
       useEffect(() => {
-       
+       document.getElementById('cv').style.display='none'
+      //  document.getElementById('footer_cont_sec').style.transform='none'
+      
         if(bigscreenwidth< window.innerHeight){
           setbigscreenwidth(window.innerWidth * .96)
           setbigscreenheight(bigscreenwidth)
@@ -236,7 +238,7 @@ Introducing our cutting-edge Modern Hostel Management project, designed to revol
       </div>
         </div>
           
-      <Footer/>
+      {/* <Footer/> */}
 
     </ReactLenis>
         </>

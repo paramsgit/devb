@@ -46,7 +46,7 @@ export const Sitefooter = () => {
 </section>
 
 <footer className="footer">
-  <section ref={footerContainerRef} className="footer-container">    
+  <section ref={footerContainerRef} id='footer_cont_sec' className="footer-container">    
 
 
   <footer className="bg-gray-900">

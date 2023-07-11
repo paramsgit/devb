@@ -82,7 +82,7 @@ body::-webkit-scrollbar {
 .certificate{
 width: 600px;
 height: 400px;
-background-color: green;
+background-color: rgba(255, 255, 255, 0);
 /* margin-left: 30%; */
 }
 .skillhead{
