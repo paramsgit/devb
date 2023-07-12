@@ -23,6 +23,36 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar {
   width: 0px;
 }
+
+.bi-eye{
+    width: 50px;
+    height: 50px;
+   
+}
+.eyediv{
+  position: absolute;
+    left: 40%;
+    top: 40%;
+    /* width: 50px; */
+    /* height: 50px; */
+    z-index: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+}
+.aspectper2{
+  transition: opacity 0.4s ease-in-out;
+  cursor: pointer;
+  z-index: 5;
+}
+
+.aspectper2:hover{
+  opacity: 0.4;
+  z-index: 3;
+}
+
 .education{
   margin-top: 50px;
   display: flex;
