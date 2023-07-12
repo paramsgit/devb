@@ -379,7 +379,7 @@ section.description {
 footer {
   height: 50vh;
   width: 100vw;
-  background-color: #222;
+  background-color: #111827;
   overflow: hidden;
   /* border-radius: 91px 91px 0px 0px; */
   padding: 1% 0;
@@ -408,7 +408,7 @@ section.footer-container {
 }
 
 .footer-row.center {
-  background-color: #262626;
+  background-color: #111827;
   justify-content: space-around;
 }
 
