@@ -26,7 +26,7 @@ export const Nav = () => {
  
        if (scrollPosition >= 753) {
        
-        settpo('bg-white')
+        settpo('bgcustom')
      
        } else {
         settpo('transparent')
@@ -49,9 +49,13 @@ export const Nav = () => {
         thinner();
         document.getElementById('a_experience').classList.add('anc_active')
        }
-       else if(scrollPosition >=11504){
+       else if(scrollPosition >=11504 && scrollPosition<14400){
         thinner();
         document.getElementById('a_education').classList.add('anc_active')
+       }
+       else if(scrollPosition>14400){
+        thinner();
+        document.getElementById('a_contact').classList.add('anc_active')
        }
 
         

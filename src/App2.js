@@ -29,6 +29,7 @@ function App2() {
 
   <Education/>
   <Resume/> */}
+  <div id='a_contact_id'></div>
   <Sitefooter/>
   
  

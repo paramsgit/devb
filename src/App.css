@@ -46,12 +46,12 @@
 #ipad3{
   background-image: url('./static/ipadblue.png');
 }
-#epad1{
+/* #epad1{
   background-image: url('./files/static/edu1.jpg');
 }
 #epad2{
   background-image: url('./files/static/edu2.jpg');
-}
+} */
 .startpro1{
   margin-bottom: 65px;
 }

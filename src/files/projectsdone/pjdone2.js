@@ -74,7 +74,7 @@ handleResize();
 
 <div className="gatepass">
           <div className="gatetext startpro1">
-                <h2 className=' featureheads'>Social media web app with CI/CD</h2>
+                <h2 className='mhms featureheads'>Social media web app with CI/CD</h2>
               </div>
           <div className="gatepassdiv">
          

@@ -79,7 +79,7 @@ handleResize();
 
 <div className="gatepass">
           <div className="gatetext startpro1">
-                <h2 className=' featureheads'>Modern Hostel Management</h2>
+                <h2 className='mhms featureheads'>Modern Hostel Management</h2>
               </div>
           <div className="gatepassdiv">
          

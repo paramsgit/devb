@@ -46,7 +46,9 @@
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
 }
-
+.bgcustom{
+  background-color: #f9fdff;
+}
 .carousel-item2.active2 {
   opacity: 1;
 }
@@ -143,6 +145,9 @@
   .carodiv{
     flex-direction: column;
     
+}
+.mhms{
+  text-align: center;
 }
 .slider__slide-content{
   display: none!important;

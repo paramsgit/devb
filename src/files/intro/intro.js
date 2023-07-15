@@ -1,5 +1,4 @@
 import React,{useRef,useEffect,useState} from 'react'
-import computerguy from '../static/computerguy.jpg'
 import Lottie from 'react-lottie';
 import ktm from '../codingboy.json'
 import { ParallaxBanner,ParallaxProvider } from 'react-scroll-parallax';
