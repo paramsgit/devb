@@ -67,7 +67,7 @@ export const Tost = () => {
         <div className="twolines">
           <div className='twrem'>
             <h1 className='heads'>Introduction</h1>
-            <p className='linetext'>
+            <p className='linetext linecolor'>
             
 Introducing our cutting-edge Modern Hostel Management project, designed to revolutionize the way hostels operate. With its innovative features and user-friendly interface, aims to streamline administrative tasks and optimize overall hostel operations .
             
