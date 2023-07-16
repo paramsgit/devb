@@ -14,7 +14,7 @@ export const Technologies = () => {
 
 <div className="gatepass tech_used">
           <div className="gatetext">
-                <h2 className='featureheads'>Anothr head</h2>
+                <h2 className='featureheads'>Technologies Used</h2>
               </div>
        
               <div className='featuresheading fte2'>

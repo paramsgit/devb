@@ -263,6 +263,13 @@ margin-top: -130px;
     transition: background-color ease-in-out 0.4s;
 
 }
+.adminsechead{
+    margin: 5%;
+}
+
+
+
+
 @media(max-width:900px){
     .circle{
         width: min(250px,90vw);

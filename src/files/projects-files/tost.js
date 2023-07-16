@@ -110,7 +110,7 @@ Introducing our cutting-edge Modern Hostel Management project, designed to revol
           </div>
           <div className='twrem rmtxt' >
            
-           <p className='linetext'>We aimed to design, develop and build a secure NFT marketplace with a modern, colorful</p>
+           <p className='linetext'>Students can view available rooms and book them based on their preferences and availability.</p>
            
          </div>
           </div>
@@ -123,10 +123,10 @@ Introducing our cutting-edge Modern Hostel Management project, designed to revol
             <div className="firstgatepassdiv">
               <div className="gateleft">
                 <div className="glcontent">
-                <div className="headgen">Generate Gate-Pass </div>
-              <p className='gengtext'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi iste nam doloribus eius architecto similique?</p>
-              <p className='gengtext'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi iste nam doloribus eius architecto similique?</p>
-              <p className='gengtext'> adipisicing elit. Animi iste nam doloribus eius architecto similique?</p>
+                <div className="headgen">Gate-Pass </div>
+              <p className='gengtext'>Students have to fill leave form and can download their gate pass .</p>
+              <p className='gengtext'>The gate pass token will be scanned by security personnel at the gate for verification.</p>
+              <p className='gengtext'> The timestamp records for Out time and In time are efficiently and seamlessly updated through an automated process upon successful scanning. </p>
               </div>
               </div>
               <div className="gateright">
@@ -146,9 +146,10 @@ Introducing our cutting-edge Modern Hostel Management project, designed to revol
               <div className="gaterights">
               <div className="glcontent">
                 <div className="headgen">Generate Gate-Pass </div>
-              <p className='gengtext'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi iste nam doloribus eius architecto similique?</p>
-              <p className='gengtext'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi iste nam doloribus eius architecto similique?</p>
-              <p className='gengtext'> adipisicing elit. Animi iste nam doloribus eius architecto similique?</p>
+           
+              <p className='gengtext'>The initial step  involves confirming the absence of an active gate pass or any indication of your departure from the campus. </p>
+              <p className='gengtext'>Then fill your basic details like estimated return date and time, reason and additional mobile number for contact.</p>
+              <p className='gengtext'> After successful submission you can download your gate pass. </p>
               </div>
               </div>
             </div>
@@ -175,9 +176,8 @@ Introducing our cutting-edge Modern Hostel Management project, designed to revol
 
               <div className='att_det' >
            
-           <p className='linetext atl'>We aimed to design, develop and build a secure NFT marketplace Lorem ipsum dolor </p>
-           <p className='linetext atl'>We aimed to design, develop and build a secure NFT marketplace Lorem ipsum dolorlorem15
-           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit odit quis facilis mollitia eius tempore? </p>
+           <p className='linetext atl'>Students' attendance will be marked after face and location verification.</p>
+           <p className='linetext atl'>The system checks if the student is not on leave before verifying the location. Students need to scan their face for attendance verification. </p>
            
            
          </div>
@@ -192,10 +192,12 @@ Introducing our cutting-edge Modern Hostel Management project, designed to revol
             <div className="firstgatepassdiv">
               <div className="gateleft">
                 <div className="glcontent">
-                <div className="headgen">Complians</div>
-              <p className='gengtext'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi iste nam doloribus eius architecto similique?</p>
-              <div className="headgen">Feedback</div>
-              <p className='gengtext'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi iste nam doloribus eius architecto similique?</p>
+                <div className="headgen">Complaints</div>
+              <p className='gengtext'>Students can submit complaints or issues they encounter within the hostel.</p>
+              <p className='gengtext'>All types of complaints are solved by hostel staff and update the status of complaint. </p>
+              <p className='gengtext'> Students can track the status of their complaints and receive updates.</p>
+              <div style={{marginTop:"20px"}} className="headgen">Feedback</div>
+              <p className='gengtext'>Students are encouraged to share their valuable feedback on their experiences and offer suggestions for potential improvements. </p>
               </div>
               </div>
               <div className="gateright">
@@ -212,7 +214,7 @@ Introducing our cutting-edge Modern Hostel Management project, designed to revol
 
           <div className="gatepass admin_section">
           <div className="gatetext">
-                <h2 className='featureheads'> Another heading </h2>
+                <h2 className='featureheads adminsechead'> Admin Section </h2>
               </div>
        
             
@@ -232,9 +234,15 @@ Introducing our cutting-edge Modern Hostel Management project, designed to revol
            
           </div>
 
-          <div className="headingop">Dopop </div>
+          
           <div className="outerone gateimg"  >
-        <Post br={br} width={bigscreenwidth} height={bigscreenheight} image={firstimage}/>
+        {/* <Post br={br} width={bigscreenwidth} height={bigscreenheight} image={firstimage}/> */}
+
+
+        <iframe style={{borderRadius:"30px"}} width={bigscreenwidth} height={bigscreenheight}  title="Project Video"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen src="https://www.youtube.com/embed/wpyJBa8TeVU">
+</iframe>
       </div>
         </div>
           
