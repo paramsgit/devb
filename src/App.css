@@ -152,6 +152,14 @@ list-style: disc;
 
 
 
+@media (max-width:767px){
+  .anctagl{
+    background-color: white!important;
+    background-color: white!important;
+    margin: 2px;
+    color: black;
+  }
+}
 @media (max-width:700px){
 .ipad{
   width: 100%;
