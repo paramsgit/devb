@@ -128,6 +128,7 @@ list-style: disc;
 .mpimg{
   width: 340px;
 }
+
 .more_projects{
   display: flex;
   justify-content: space-evenly;
