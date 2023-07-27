@@ -46,7 +46,7 @@ handleResize();
     <div className="ipad" id='ipad'>
     
        <Postcp link='http://param11650.pythonanywhere.com/' demo='Live' br={br} width={roomwidth} height={roomheight} image={gatetoken} />
-       {/* </Link> */}
+     
     </div>
   );
 
