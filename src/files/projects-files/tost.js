@@ -6,6 +6,8 @@ import { Lenis as ReactLenis, useLenis } from '@studio-freight/react-lenis'
 import githublogo from '../static/github-mark.svg';
 import { Technologies } from './technologies';
 import { Footer } from './footer';
+import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
+
 export const Tost = () => {
     const lenis = useLenis(({scroll}) => {
         // called every scroll
@@ -72,11 +74,13 @@ export const Tost = () => {
 Introducing our cutting-edge Modern Hostel Management project, designed to revolutionize the way hostels operate. With its innovative features and user-friendly interface, aims to streamline administrative tasks and optimize overall hostel operations .
             
             </p>
-            <button className='gitbtn'>Link 
+            <Link to='https://github.com/paramsgit/Hostel_minor_project/' target={'_blank'}>
+            <button  className='gitbtn'>Link 
 
               <img className='gitimg' src={githublogo} alt="githublogo" />
               
             </button>
+            </Link>
           </div>
           <div className="outerone">
           <Post br={br} width={bigscreenwidth} height={bigscreenheight} image={mobileview}/>
