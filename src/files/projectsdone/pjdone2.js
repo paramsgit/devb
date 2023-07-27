@@ -61,10 +61,7 @@ handleResize();
                 <h2 className='mhms featureheads'>Social media web app with CI/CD</h2>
               </div>
           <div className="gatepassdiv">
-         
-
-
-            <div className="firstgatepassdiv">
+           <div className="firstgatepassdiv">
            
               <div className="gateleft">
                 <div className="proglcontent glcontent">
