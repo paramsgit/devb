@@ -21,7 +21,7 @@ return (
           <Tost />
         </Route> */}
         <Route exact path="/" element={<Firstapp/>} />
-          <Route path="/quiz" element={<Tost/>} />
+          <Route path="/hostel" element={<Tost/>} />
       </Routes>
     </Router>
 

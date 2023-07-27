@@ -48,10 +48,11 @@ body::-webkit-scrollbar {
   z-index: 5;
 }
 
-.aspectper2:hover{
+.new_link:hover .aspectper2{
   opacity: 0.4;
   z-index: 3;
 }
+
 
 .education{
   margin-top: 50px;

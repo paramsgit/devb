@@ -37,7 +37,7 @@ handleResize();
 <p className='eyedemo'>Demo</p>
 </div>
 <Link to="/quiz" target={'_blank'}> */}
-       <Postcp br={br} width={roomwidth} height={roomheight} image={gatetoken} />
+       <Postcp link='http://param11650.pythonanywhere.com/' demo='Live' br={br} width={roomwidth} height={roomheight} image={gatetoken} />
        {/* </Link> */}
         </div>
        )
@@ -61,7 +61,7 @@ handleResize();
 <p className='eyedemo'>Demo</p>
 </div>
 <Link to="/quiz" target={'_blank'}> */}
-       <Postcp br={br} width={roomwidth} height={roomheight} image={gatetoken} />
+       <Postcp link='http://param11650.pythonanywhere.com/' demo='Live' br={br} width={roomwidth} height={roomheight} image={gatetoken} />
        {/* </Link> */}
     </div>
   );

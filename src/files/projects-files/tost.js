@@ -116,7 +116,7 @@ Introducing our cutting-edge Modern Hostel Management project, designed to revol
           </div>
 
           <div className="gatepass">
-          <div className="gatetext">
+          <div style={{marginBottom:"40px"}} className="gatetext">
                 <h2 className='featureheads'>Gate-Pass</h2>
               </div>
           <div className="gatepassdiv">
