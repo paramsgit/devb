@@ -3,10 +3,21 @@ import React,{useState,useEffect} from 'react';
 // import { Link } from 'react-scroll';
 import { Post } from './post';
 import { Lenis as ReactLenis, useLenis } from '@studio-freight/react-lenis'
-import githublogo from '../static/github-mark.svg';
+import githublogo from '../../static/github-mark.svg';
 import { Technologies } from './technologies';
 import { Footer } from './footer';
 import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
+import n_photo7 from '../../static/photo7.jpg'
+import n_mobile4 from '../../static/mobile4.jpg'
+import n_room3 from '../../static/room3.jpg'
+import n_mess2 from '../../static/mess2.jpg'
+import n_gate2 from '../../static/gate2.jpg'
+import n_gate9 from '../../static/gate9.jpg'
+import n_att1 from '../../static/att1.jpg'
+import n_att9 from '../../static/att9.jpg'
+import n_comp from '../../static/comp.jpg'
+import n_admin from '../../static/admin.jpg'
+import n_temp2 from '../../static/temp2.jpg'
 
 export const Tost = () => {
     const lenis = useLenis(({scroll}) => {
@@ -24,16 +35,16 @@ export const Tost = () => {
       const [height, setheight] = useState(500);
       const [br, setbr] = useState(60);
 
-      const [firstimage, setfirstimage] = useState('photo7.jpg');
-      const [mobileview, setmobileview] = useState('mobile4.jpg');
-      const [room1, setroom1] = useState('room3.jpg');
-      const [mess, setmess] = useState('mess2.jpg');
-      const [gatephoto, setgatephoto] = useState('gate2.jpg');
-      const [gatetoken, setgatetoken] = useState('gate9.jpg');
-      const [attphoto, setattphoto] = useState('att1.jpg');
-      const [attphoto2, setattphoto2] = useState('att9.jpg');
-      const [compphoto, setcompphoto] = useState('comp.jpg');
-      const [adminpho, setadminpho] = useState('admin.jpg');
+      const [firstimage, setfirstimage] = useState(n_photo7);
+      const [mobileview, setmobileview] = useState(n_mobile4);
+      const [room1, setroom1] = useState(n_room3);
+      const [mess, setmess] = useState(n_mess2);
+      const [gatephoto, setgatephoto] = useState(n_gate2);
+      const [gatetoken, setgatetoken] = useState(n_gate9);
+      const [attphoto, setattphoto] = useState(n_att1);
+      const [attphoto2, setattphoto2] = useState(n_att9);
+      const [compphoto, setcompphoto] = useState(n_comp);
+      const [adminpho, setadminpho] = useState(n_admin);
       useEffect(() => {
        document.getElementById('cv').style.display='none'
       //  document.getElementById('footer_cont_sec').style.transform='none'
@@ -46,7 +57,7 @@ export const Tost = () => {
           setattwidth(window.innerWidth * .90 )
           setattheight(attwidth *2)
           setbr(30)
-          setfirstimage('temp2.jpg')
+          setfirstimage(n_temp2)
         }
       },[]);
 

@@ -1,7 +1,7 @@
 import React,{useEffect,useState,useRef} from 'react'
 import 'intersection-observer';
-import plogo from '../static/Plogo.png'
-import plogo2 from '../static/pslogo.png'
+import plogo from '../../static/Plogo.png'
+import plogo2 from '../../static/pslogo.png'
 export const Nav = () => {
   const [tpo, settpo] = useState("transparent")
   const [tto, settto] = useState("text-white")

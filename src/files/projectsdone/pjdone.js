@@ -2,7 +2,9 @@
 import React,{useState,useEffect} from 'react';
 import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
 import { Postcp } from '../projects-files/postcp';
-import ptab from '../static/threep.png'
+import ptab from '../../static/threep.png'
+import n_photo72 from '../../static/photo72.jpg'
+import n_photo8 from '../../static/photo8.jpg'
 export const Pjdone = () => {
 
   useEffect(() => {
@@ -46,8 +48,8 @@ handleResize();
   const [swidth, setswidth] = useState(window.innerWidth);
   const [roomwidth, setroomwidth] = useState(479);
   const [roomheight, setroomheight] = useState(300);
-  const [gatephoto, setgatephoto] = useState('photo72.jpg');
-  const [gatetoken, setgatetoken] = useState('photo8.jpg');
+  const [gatephoto, setgatephoto] = useState(n_photo72);
+  const [gatetoken, setgatetoken] = useState(n_photo8);
   const [br, setbr] = useState(7);
 
   const [tab, settab] = useState(

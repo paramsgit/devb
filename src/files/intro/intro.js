@@ -1,6 +1,8 @@
 import React,{useRef,useEffect,useState} from 'react'
 import Lottie from 'react-lottie';
 import ktm from '../codingboy.json'
+import banner_background from '../../static/banner-backgroundm1.jpg'
+import banner_foreground from '../../static/banner-foreground.png'
 import { ParallaxBanner,ParallaxProvider } from 'react-scroll-parallax';
 
 
@@ -14,7 +16,7 @@ export const Intro = () => {
 
   const targetRef = useRef(null);
   const background = {
-    image: 'banner/banner-backgroundm1.jpg',
+    image: banner_background,
     translateY: [0, 50],
     opacity: [0.5, 0.5],
     scale: [1.05, 1, 'easeOutCubic'],
@@ -50,7 +52,7 @@ export const Intro = () => {
   };
 
   const foreground = {
-    image: 'banner/banner-foreground.png',
+    image: banner_foreground,
     translateY: [0, 5],
     scale: [1, 1.5, 'easeOutCubic'],
     shouldAlwaysCompleteAnimation: true,
