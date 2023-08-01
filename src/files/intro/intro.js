@@ -69,7 +69,8 @@ export const Intro = () => {
   };
 
   useEffect(() => {
-   
+    document.getElementById('cv').style.opacity=1
+
     if( window.innerWidth <700){
       // console.log("smaller")
       setcbwidth(300)
@@ -108,6 +109,8 @@ export const Intro = () => {
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
+
+   
   }, []);
 
   const defaultOptions = {
