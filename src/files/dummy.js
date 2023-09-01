@@ -1,7 +1,9 @@
 import React from 'react'
 
-export const Dummy = () => {
+export const Dummy = ({ progress }) => {
   return (
-    <div>Dummy...</div>
+    <div>Dummy...
+       <div>{progress}% Complete</div>
+    </div>
   )
 }
