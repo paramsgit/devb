@@ -1,11 +1,12 @@
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
-import cf1 from '../../static/cf1.jpg'
-import cf2 from '../../static/cf2.jpg'
-import cf3 from '../../static/cf3.jpg'
-import cf4 from '../../static/cf4.jpg'
-import cf5 from '../../static/cf5.jpg'
+import { cf1 } from "../constants/constant";
+import { cf2 } from "../constants/constant";
+import { cf3 } from "../constants/constant";
+import { cf4 } from "../constants/constant";
+import { cf5 } from "../constants/constant";
+
 const boxVariant = {
   visible: { opacity: 1, scale: 1, transition: { duration: 0.5 } },
   hidden: { opacity: 0, scale: 0,  }

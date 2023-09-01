@@ -34,7 +34,7 @@ function Firstapp() {
 <ReactLenis root options={{}}>
 
 <div id='a_home_id'></div>
-  <Nav/>
+  {/* <Nav/>
   <Intro/>
 
   <Skill/>
@@ -42,7 +42,7 @@ function Firstapp() {
    <Pjdone/>
   
    <Pjdone2/>
-   <Moreprojects/>
+   <Moreprojects/> */}
    <div id='a_experience_id'></div>
    <Experience/>
    <div id='a_education_id'></div>
