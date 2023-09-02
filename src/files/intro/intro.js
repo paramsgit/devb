@@ -1,8 +1,7 @@
 import React,{useRef,useEffect,useState} from 'react'
 import Lottie from 'react-lottie';
 import ktm from '../codingboy.json'
-// import banner_background from '../../static/banner-backgroundm1.jpg'
-// import banner_foreground from '../../static/banner-foreground.png'
+
 import { banner_background,banner_foreground } from '../constants/constant';
 import { ParallaxBanner,ParallaxProvider } from 'react-scroll-parallax';
 
