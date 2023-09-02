@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-// import andriodlogo from '../../static/ando.png'
 import { andriodlogo } from '../constants/constant';
 
 export const Sitefooter = () => {
