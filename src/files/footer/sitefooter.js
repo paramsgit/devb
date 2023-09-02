@@ -33,23 +33,23 @@ export const Sitefooter = () => {
 
   return (
    <>
-   <div ref={scrollerRef} className="scroller">
+   <div ref={scrollerRef} id='footer_id' className="scroller noheight">
 
 
 
 {/* <section className="description"></section> */}
 
-<section ref={conclusionRef} className="conclusion">
+<section ref={conclusionRef} id='conclusion_id' className="conclusion noheight">
 
 
 
 </section>
 
 <footer className="footer">
-  <section ref={footerContainerRef} id='footer_cont_sec' className="footer-container">    
+  <section ref={footerContainerRef} id='footer_cont_sec' className="footer-container noheight">    
 
 
-  <footer className="bg-gray-900">
+  <footer className="bg-gray-900 ">
     <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">

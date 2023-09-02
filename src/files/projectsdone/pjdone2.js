@@ -3,9 +3,7 @@ import React,{useState,useEffect} from 'react';
 import { Postcp } from '../projects-files/postcp';
 import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
 
-import ptab from '../../static/threep2.png'
-import ptab2 from '../../static/macwc.png'
-import blueb2 from '../../static/blueb2.jpg'
+import { threep2 as ptab,macwc as ptab2 , blueb2 } from '../constants/constant';
 export const Pjdone2 = () => {
 
   useEffect(() => {

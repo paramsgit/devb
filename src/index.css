@@ -80,3 +80,14 @@ html.has-scroll-dragging {
   [data-scroll-direction="horizontal"] .c-scrollbar_thumb {
     right: auto;
     bottom: 0; }
+    .op0{
+      opacity: 0;
+    }
+    .anime{
+     transition: all 1s ease-in-out; 
+    }
+
+    .noheight{
+      /* height: 0!important; */
+      display: none!important;
+    }

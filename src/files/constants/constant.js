@@ -50,4 +50,7 @@ export const andriodlogo='https://res.cloudinary.com/dvdalsby7/image/upload/v169
 export const admin='https://res.cloudinary.com/dvdalsby7/image/upload/v1693577156/Portfolio_images/admin_tlfogd.jpg'
 export const single_p='https://res.cloudinary.com/dvdalsby7/image/upload/v1693577176/Portfolio_images/Plogo_ypckjn.png'
 
-const hostel_list=[]
+
+export const photos_list2=[banner_background]
+export const hostel_list=[photo7,mobile4,room3,mess2,gate2,gate9,att1,att9,comp,admin,temp2,htmlpng,css,js,react_logo,tailwind,node,python,rest,mongodb]
+export const photos_list=[cf1,cf2,cf3,cf4,cf5,nitjlogo,pseb,banner_background,banner_foreground,pslogo,mp1,mp2,mp3,threep,photo72,photo8,threep2,macwc,blueb2]

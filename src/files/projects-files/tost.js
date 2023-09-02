@@ -7,17 +7,8 @@ import githublogo from '../../static/github-mark.svg';
 import { Technologies } from './technologies';
 import { Footer } from './footer';
 import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
-import n_photo7 from '../../static/photo7.jpg'
-import n_mobile4 from '../../static/mobile4.jpg'
-import n_room3 from '../../static/room3.jpg'
-import n_mess2 from '../../static/mess2.jpg'
-import n_gate2 from '../../static/gate2.jpg'
-import n_gate9 from '../../static/gate9.jpg'
-import n_att1 from '../../static/att1.jpg'
-import n_att9 from '../../static/att9.jpg'
-import n_comp from '../../static/comp.jpg'
-import n_admin from '../../static/admin.jpg'
-import n_temp2 from '../../static/temp2.jpg'
+
+import { photo7 as n_photo7, mobile4 as n_mobile4, room3 as n_room3,mess2 as n_mess2,gate2 as n_gate2,gate9 as n_gate9,att1 as n_att1,att9 as n_att9,comp as n_comp,admin as n_admin,temp2 as n_temp2 } from '../constants/constant';
 
 export const Tost = () => {
     const lenis = useLenis(({scroll}) => {
