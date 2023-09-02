@@ -1,7 +1,5 @@
 import React from 'react'
-import mp1 from '../../static/mp1.png'
-import mp2 from '../../static/mp2.png'
-import mp3 from '../../static/mp3.png'
+import { mp1,mp2,mp3 } from '../constants/constant'
 export const Moreprojects = () => {
   return (
     <>

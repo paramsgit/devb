@@ -3,6 +3,7 @@ import Firstapp from './firstapp';
 import { Tost } from './files/projects-files/tost';
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { Imagepreloader } from './files/imagepreloader';
 
 function App() {
   const lenis = useLenis(({scroll}) => {
@@ -10,6 +11,7 @@ function App() {
   })
 return (
  <>
+
 
 <Router>
 {/* <Firstapp/> */}
@@ -24,6 +26,9 @@ return (
           <Route path="/hostel" element={<Tost/>} />
       </Routes>
     </Router>
+   
+
+
 
 
 

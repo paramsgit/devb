@@ -1,8 +1,7 @@
 import React,{useRef,useEffect,useState} from 'react'
 import Lottie from 'react-lottie';
 import ktm from '../codingboy.json'
-import banner_background from '../../static/banner-backgroundm1.jpg'
-import banner_foreground from '../../static/banner-foreground.png'
+import { banner_background,banner_foreground } from '../constants/constant';
 import { ParallaxBanner,ParallaxProvider } from 'react-scroll-parallax';
 
 
@@ -11,9 +10,6 @@ export const Intro = () => {
 
   const [cbheight, setcbheight] = useState(400);
   const [cbwidth, setcbwidth] = useState(600);
-
-
-
   const targetRef = useRef(null);
   const background = {
     image: banner_background,

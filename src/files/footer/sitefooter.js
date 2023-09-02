@@ -1,8 +1,7 @@
 import React, { useEffect, useRef } from 'react'
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import andriodlogo from '../../static/ando.png'
-import LocomotiveScroll from 'locomotive-scroll'; // Assuming you have 
+import { andriodlogo } from '../constants/constant';
 
 export const Sitefooter = () => {
   const scrollerRef = useRef(null);

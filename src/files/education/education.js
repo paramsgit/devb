@@ -1,7 +1,6 @@
 import React from 'react'
 import { useParallax,Parallax,ParallaxProvider } from 'react-scroll-parallax';
-import nitjlogo from '../../static/nitjlogo.png'
-import pseb from '../../static/pseb.png'
+import { nitjlogo,pseb } from '../constants/constant';
 export const Education = () => {
   return (
  <>
