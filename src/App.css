@@ -38,13 +38,13 @@
     background-repeat: no-repeat;
 }
 #ipad{
-  background-image: url('./static/ipad2.png');
+  background-image: url('https://res.cloudinary.com/dvdalsby7/image/upload/v1693577157/Portfolio_images/ipad2_utjsco.png');
 }
 #ipad2{
-  background-image: url('./static/ipadwithhostel.png');
+  background-image: url('https://res.cloudinary.com/dvdalsby7/image/upload/v1693577158/Portfolio_images/ipadwithhostel_hjpolg.png');
 }
 #ipad3{
-  background-image: url('./static/ipadblue.png');
+  background-image: url('https://res.cloudinary.com/dvdalsby7/image/upload/v1693577157/Portfolio_images/ipadblue_mokjl3.png');
 }
 /* #epad1{
   background-image: url('./files/static/edu1.jpg');

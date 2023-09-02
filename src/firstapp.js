@@ -25,7 +25,7 @@ import useImagePreloader from './files/Loader/caching';
 import { photos_list2 } from './files/constants/constant';
 import { photos_list } from './files/constants/constant';
 import Loader from './files/Loader/loader';
-
+import loaderimg from './static/Loader_back.jpg'
 
 function Firstapp() {
   const lenis = useLenis(({scroll}) => {
@@ -34,23 +34,33 @@ function Firstapp() {
   const { imagesPreloaded } = useImagePreloader(photos_list2)
   const [loaded,setloaded]=useState(false)
   const [loaded2,setloaded2]=useState(false)
+  const [limg_scale,setlimg_scale]=useState(0.5)
+  // const [imagesPreloaded,setimagesPreloaded]=useState(false)
 
   useEffect(() => {
 
-    
-    if(imagesPreloaded){
+    function call_everything(){
       setloaded(true)
       console.log("runfun is true now")
-    
+      
     
       const timer2=setTimeout(() => {
-        setloaded2(true)
+        
         document.getElementById('cv').classList.remove('noheight')
         document.getElementById('footer_id').classList.remove('noheight')
         document.getElementById('footer_cont_sec').classList.remove('noheight')
         document.getElementById('conclusion_id').classList.remove('noheight')
         console.log('runing')
-      }, 1000); 
+      }, 1000);
+    }
+    function selo(){
+      setloaded2(true)
+    }
+    if(imagesPreloaded){
+      setlimg_scale(1)
+      
+      setTimeout(selo, 1000);
+      setTimeout(call_everything, 2000);
     
     }
       
@@ -61,7 +71,7 @@ function Firstapp() {
   <>
 
 
-{loaded ? (
+{/* {loaded ? (
         <ReactLenis root options={{}}>
           <div className={`${loaded2?'':'op0'} anime`}>
         <div id='a_home_id'></div>
@@ -78,19 +88,50 @@ function Firstapp() {
            <Experience/>
            <div id='a_education_id'></div>
           <Education/>
-          {/* <div id='a_contact_id'></div> */}
+          <div id='a_contact_id'></div>
           
           </div>
         
         
           </ReactLenis>
-        
+       
       ) : (
         
-        <Loader />
-      ) }
+        <>
+<div className="loader_div">
+  <img src={loaderimg} style={{scale:`${limg_scale}`,transition:'all 1s ease-in-out'}} alt="loader_img" />
+</div>
+        </>
+      ) } */}
+
+<ReactLenis root options={{}}>
+
+<div className={`loader_div anime ${loaded2?'op0':''} `}>
+  <img src={loaderimg} style={{scale:`${limg_scale}`,transition:'all 1s ease-in-out'}} alt="loader_img" />
+</div>
 
 
+          <div className={`${loaded2?'':'op0'} anime`}>
+        <div id='a_home_id'></div>
+          <Nav/>
+          <Intro/>
+        
+          <Skill/>
+         <div id='a_project_id'></div>
+           <Pjdone/>
+          
+           <Pjdone2/>
+           <Moreprojects/>
+           <div id='a_experience_id'></div>
+           <Experience/>
+           <div id='a_education_id'></div>
+          <Education/>
+          <div id='a_contact_id'></div>
+          
+          </div>
+        
+        
+          </ReactLenis>
 
   </>
   );
