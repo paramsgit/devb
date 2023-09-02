@@ -10,9 +10,6 @@ export const Intro = () => {
 
   const [cbheight, setcbheight] = useState(400);
   const [cbwidth, setcbwidth] = useState(600);
-
-
-
   const targetRef = useRef(null);
   const background = {
     image: banner_background,
