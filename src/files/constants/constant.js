@@ -49,3 +49,5 @@ export const att1='https://res.cloudinary.com/dvdalsby7/image/upload/v1693577158
 export const andriodlogo='https://res.cloudinary.com/dvdalsby7/image/upload/v1693577157/Portfolio_images/ando_zn8sux.png'
 export const admin='https://res.cloudinary.com/dvdalsby7/image/upload/v1693577156/Portfolio_images/admin_tlfogd.jpg'
 export const single_p='https://res.cloudinary.com/dvdalsby7/image/upload/v1693577176/Portfolio_images/Plogo_ypckjn.png'
+
+const hostel_list=[]
