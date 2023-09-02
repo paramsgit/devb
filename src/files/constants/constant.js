@@ -46,6 +46,6 @@ export const bann_foreground='https://res.cloudinary.com/dvdalsby7/image/upload/
 export const bann_back='https://res.cloudinary.com/dvdalsby7/image/upload/v1693577162/Portfolio_images/banner-backgroundm1_bpuzns.jpg'
 export const att9='https://res.cloudinary.com/dvdalsby7/image/upload/v1693577158/Portfolio_images/att9_vgqrdw.jpg'
 export const att1='https://res.cloudinary.com/dvdalsby7/image/upload/v1693577158/Portfolio_images/att1_wutpjf.jpg'
-export const ando='https://res.cloudinary.com/dvdalsby7/image/upload/v1693577157/Portfolio_images/ando_zn8sux.png'
+export const andriodlogo='https://res.cloudinary.com/dvdalsby7/image/upload/v1693577157/Portfolio_images/ando_zn8sux.png'
 export const admin='https://res.cloudinary.com/dvdalsby7/image/upload/v1693577156/Portfolio_images/admin_tlfogd.jpg'
 export const single_p='https://res.cloudinary.com/dvdalsby7/image/upload/v1693577176/Portfolio_images/Plogo_ypckjn.png'
