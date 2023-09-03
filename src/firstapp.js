@@ -31,10 +31,12 @@ function Firstapp() {
   const lenis = useLenis(({scroll}) => {
     // called every scroll
   })
-  const { imagesPreloaded } = useImagePreloader(photos_list2)
+  const { imagesPreloaded } = useImagePreloader(photos_list)
   const [loaded,setloaded]=useState(false)
   const [loaded2,setloaded2]=useState(false)
-  const [limg_scale,setlimg_scale]=useState(0.5)
+ 
+
+  const [load_opacity,setload_opacity]=useState(10)
   // const [imagesPreloaded,setimagesPreloaded]=useState(false)
 
   useEffect(() => {
@@ -57,9 +59,10 @@ function Firstapp() {
       setloaded2(true)
     }
     if(imagesPreloaded){
-      setlimg_scale(1)
+    
       
-      setTimeout(selo, 1000);
+      setload_opacity(0)
+      setTimeout(selo,0);
       setTimeout(call_everything, 2000);
     
     }
@@ -107,11 +110,45 @@ function Firstapp() {
 <ReactLenis root options={{}}>
 
 <div className={`loader_div anime ${loaded2?'op0':''} `}>
-  <img src={loaderimg} style={{scale:`${limg_scale}`,transition:'all 1s ease-in-out'}} alt="loader_img" />
+<div className="load_text" style={{opacity:`${load_opacity}`}}>
+  <div className="loader">
+  <div className="box box0">
+    <div></div>
+  </div>
+  <div className="box box1">
+    <div></div>
+  </div>
+  <div className="box box2">
+    <div></div>
+  </div>
+  <div className="box box3">
+    <div></div>
+  </div>
+  <div className="box box4">
+    <div></div>
+  </div>
+  <div className="box box5">
+    <div></div>
+  </div>
+  <div className="box box6">
+    <div></div>
+  </div>
+  <div className="box box7">
+    <div></div>
+  </div>
+  <div className="ground">
+    <div></div>
+  </div>
+</div>
+
+<div className='ldtxt'>
+<span className="loader_txt">Load&nbsp;ng</span>
+</div>
+  </div>
 </div>
 
 
-          <div className={`${loaded2?'':'op0'} anime`}>
+          <div className={`${loaded2?'':'op0 noheight'} anime`}>
         <div id='a_home_id'></div>
           <Nav/>
           <Intro/>

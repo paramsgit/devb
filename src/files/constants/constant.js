@@ -50,6 +50,9 @@ export const andriodlogo='https://res.cloudinary.com/dvdalsby7/image/upload/v169
 export const admin='https://res.cloudinary.com/dvdalsby7/image/upload/v1693577156/Portfolio_images/admin_tlfogd.jpg'
 export const single_p='https://res.cloudinary.com/dvdalsby7/image/upload/v1693577176/Portfolio_images/Plogo_ypckjn.png'
 
+const font1='https://fonts.googleapis.com/css2?family=Kanit:wght@400;600&family=Kavoon&family=Noto+Sans:wght@600;900&family=Open+Sans:wght@300;600&family=Poppins&family=Roboto:wght@500&family=Rubik:wght@400;500&family=Signika:wght@600&family=Ubuntu:wght@300;400;500;700&display=swap'
+const font2='https://fonts.googleapis.com/css?family=Signika+Negative:300,400&display=swap'
+const font3='https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap'
 
 export const photos_list2=[banner_background]
 export const hostel_list=[photo7,mobile4,room3,mess2,gate2,gate9,att1,att9,comp,admin,temp2,htmlpng,css,js,react_logo,tailwind,node,python,rest,mongodb]
