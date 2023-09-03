@@ -2,9 +2,6 @@
 import React,{useState,useEffect} from 'react';
 import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
 import { Postcp } from '../projects-files/postcp';
-// import ptab from '../../static/threep.png'
-// import n_photo72 from '../../static/photo72.jpg'
-// import n_photo8 from '../../static/photo8.jpg'
 import { threep as ptab,photo72 as n_photo72,photo8 as n_photo8 } from '../constants/constant';
 
 export const Pjdone = () => {
