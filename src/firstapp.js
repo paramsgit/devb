@@ -31,13 +31,14 @@ function Firstapp() {
   const lenis = useLenis(({scroll}) => {
     // called every scroll
   })
-  // const { imagesPreloaded } = useImagePreloader(photos_list)
+  const { imagesPreloaded } = useImagePreloader(photos_list2)
   const [loaded,setloaded]=useState(false)
   const [loaded2,setloaded2]=useState(false)
+  const [loaded3,setloaded3]=useState(false)
  
 
   const [load_opacity,setload_opacity]=useState(10)
-  const [imagesPreloaded,setimagesPreloaded]=useState(false)
+  // const [imagesPreloaded,setimagesPreloaded]=useState(false)
 
   useEffect(() => {
 
@@ -62,7 +63,9 @@ function Firstapp() {
     
       
       setload_opacity(0)
-      setTimeout(selo,0);
+      setloaded3(true)
+
+      setTimeout(selo, 500);
       setTimeout(call_everything, 2000);
     
     }
@@ -148,7 +151,7 @@ function Firstapp() {
 </div>
 
 
-          <div className={`${loaded2?'':'op0 noheight'} anime`}>
+          <div className={`${loaded2?'':'op0'} ${loaded3?'':'noheight'}  anime`}>
         <div id='a_home_id'></div>
           <Nav/>
           <Intro/>
