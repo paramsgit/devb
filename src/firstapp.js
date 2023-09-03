@@ -31,13 +31,13 @@ function Firstapp() {
   const lenis = useLenis(({scroll}) => {
     // called every scroll
   })
-  const { imagesPreloaded } = useImagePreloader(photos_list)
+  // const { imagesPreloaded } = useImagePreloader(photos_list)
   const [loaded,setloaded]=useState(false)
   const [loaded2,setloaded2]=useState(false)
  
 
   const [load_opacity,setload_opacity]=useState(10)
-  // const [imagesPreloaded,setimagesPreloaded]=useState(false)
+  const [imagesPreloaded,setimagesPreloaded]=useState(false)
 
   useEffect(() => {
 
