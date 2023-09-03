@@ -31,7 +31,7 @@ function Firstapp() {
   const lenis = useLenis(({scroll}) => {
     // called every scroll
   })
-  const { imagesPreloaded } = useImagePreloader(photos_list2)
+  const { imagesPreloaded } = useImagePreloader(photos_list)
   const [loaded,setloaded]=useState(false)
   const [loaded2,setloaded2]=useState(false)
   const [loaded3,setloaded3]=useState(false)
